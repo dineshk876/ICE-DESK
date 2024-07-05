@@ -1,0 +1,352 @@
+2024-07-02 11:02:55.092 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-02 11:02:55.121 | INF | ==================================================================================
+ 2024-07-02 11:02:55.126 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-07-02 11:02:55.166 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-07-02 11:03:05.514 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-07-02 11:03:12.737 | INF | "Verify home page is dispalyed"
+ 2024-07-02 11:03:25.333 | INF | "Logout the user"
+ 2024-07-02 11:05:42.065 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-02 11:05:42.092 | INF | ==================================================================================
+ 2024-07-02 11:05:42.097 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-07-02 11:05:42.114 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-07-02 11:05:51.352 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-07-02 11:05:58.990 | INF | "Verify home page is dispalyed"
+ 2024-07-02 11:06:11.950 | INF | "Logout the user"
+ 2024-07-02 11:06:59.940 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-02 11:06:59.965 | INF | ==================================================================================
+ 2024-07-02 11:06:59.970 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-07-02 11:06:59.988 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-07-02 11:07:09.298 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-07-02 11:07:17.239 | INF | "Verify home page is dispalyed"
+ 2024-07-02 11:07:23.429 | INF | "Logout the user"
+ 2024-07-02 11:15:33.046 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-02 11:15:33.087 | INF | ==================================================================================
+ 2024-07-02 11:15:33.097 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-07-02 11:15:33.163 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-07-02 11:15:42.508 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-07-02 11:15:50.518 | INF | "Verify home page is dispalyed"
+ 2024-07-02 11:15:57.061 | INF | "Logout the user"
+ 2024-07-02 11:32:14.863 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-02 11:32:14.888 | INF | ==================================================================================
+ 2024-07-02 11:32:14.893 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-07-02 11:32:14.910 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-07-02 11:32:26.353 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-07-02 11:32:40.631 | INF | "Verify home page is dispalyed"
+ 2024-07-02 11:32:48.748 | INF | "Logout the user"
+ 2024-07-02 11:53:38.123 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-02 11:53:38.141 | INF | ==================================================================================
+ 2024-07-02 11:53:38.145 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-07-02 11:53:38.157 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-07-02 11:53:44.673 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-07-02 11:53:49.814 | INF | "Verify home page is dispalyed"
+ 2024-07-02 11:53:56.920 | INF | "Logout the user"
+ 2024-07-02 11:58:14.837 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-02 11:58:14.854 | INF | ==================================================================================
+ 2024-07-02 11:58:14.857 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-07-02 11:58:14.869 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-07-02 11:58:20.308 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-07-02 11:58:25.470 | INF | "Verify home page is dispalyed"
+ 2024-07-02 11:58:34.933 | INF | "Logout the user"
+ 2024-07-02 12:01:44.957 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-02 12:01:44.974 | INF | ==================================================================================
+ 2024-07-02 12:01:44.977 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-07-02 12:01:44.990 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-07-02 12:01:50.754 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-07-02 12:01:56.237 | INF | "Verify home page is dispalyed"
+ 2024-07-02 12:02:35.145 | ERR | Test step failed | Unable to find element with xpath == //input[@id='btnSamePatient']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at BDD_AutomationTests.Pages.HomePage.Logout() in D:\BDD_AutomationTests\ICE Desktop\Pages\HomePage.cs:line 83
+   at BDD_AutomationTests.Behavior.ExecuteLoginBehavior.Perform3() in D:\BDD_AutomationTests\ICE Desktop\Behavior\ExecuteLoginBehavior.cs:line 31
+   at BDD_AutomationTests.Steps.LoginStepDefinition.ThenLogoutTheUser() in D:\BDD_AutomationTests\ICE Desktop\Steps\LoginStepDefinition.cs:line 43
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-02 12:03:56.134 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-02 12:03:56.151 | INF | ==================================================================================
+ 2024-07-02 12:03:56.155 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-07-02 12:03:56.167 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-07-02 12:04:03.023 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-07-02 12:04:08.334 | INF | "Verify home page is dispalyed"
+ 2024-07-02 12:04:47.053 | ERR | Test step failed | Unable to find element with xpath == //*[@id='btnSamePatient']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at BDD_AutomationTests.Pages.HomePage.Logout() in D:\BDD_AutomationTests\ICE Desktop\Pages\HomePage.cs:line 83
+   at BDD_AutomationTests.Behavior.ExecuteLoginBehavior.Perform3() in D:\BDD_AutomationTests\ICE Desktop\Behavior\ExecuteLoginBehavior.cs:line 31
+   at BDD_AutomationTests.Steps.LoginStepDefinition.ThenLogoutTheUser() in D:\BDD_AutomationTests\ICE Desktop\Steps\LoginStepDefinition.cs:line 43
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-02 12:04:59.057 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-02 12:04:59.075 | INF | ==================================================================================
+ 2024-07-02 12:04:59.078 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-07-02 12:04:59.091 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-07-02 12:05:04.942 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-07-02 12:05:10.002 | INF | "Verify home page is dispalyed"
+ 2024-07-02 12:05:51.832 | ERR | Test step failed | Unable to find element with xpath == //*[@id='btnSamePatient']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at BDD_AutomationTests.Pages.HomePage.Logout() in D:\BDD_AutomationTests\ICE Desktop\Pages\HomePage.cs:line 84
+   at BDD_AutomationTests.Behavior.ExecuteLoginBehavior.Perform3() in D:\BDD_AutomationTests\ICE Desktop\Behavior\ExecuteLoginBehavior.cs:line 31
+   at BDD_AutomationTests.Steps.LoginStepDefinition.ThenLogoutTheUser() in D:\BDD_AutomationTests\ICE Desktop\Steps\LoginStepDefinition.cs:line 43
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-02 12:19:29.895 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-02 12:19:29.913 | INF | ==================================================================================
+ 2024-07-02 12:19:29.916 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-07-02 12:19:29.938 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-07-02 12:19:36.348 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-07-02 12:19:42.570 | INF | "Verify home page is dispalyed"
+ 2024-07-02 12:20:26.337 | ERR | Test step failed | Unable to find element with xpath == //*[@pageid='s']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at BDD_AutomationTests.Pages.HomePage.Logout() in D:\BDD_AutomationTests\ICE Desktop\Pages\HomePage.cs:line 84
+   at BDD_AutomationTests.Behavior.ExecuteLoginBehavior.Perform3() in D:\BDD_AutomationTests\ICE Desktop\Behavior\ExecuteLoginBehavior.cs:line 31
+   at BDD_AutomationTests.Steps.LoginStepDefinition.ThenLogoutTheUser() in D:\BDD_AutomationTests\ICE Desktop\Steps\LoginStepDefinition.cs:line 43
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-02 12:20:44.494 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-02 12:20:44.511 | INF | ==================================================================================
+ 2024-07-02 12:20:44.515 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-07-02 12:20:44.527 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-07-02 12:20:50.215 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-07-02 12:20:55.510 | INF | "Verify home page is dispalyed"
+ 2024-07-02 12:21:39.434 | ERR | Test step failed | Unable to find element with xpath == //*[@pageid='s']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at BDD_AutomationTests.Pages.HomePage.Logout() in D:\BDD_AutomationTests\ICE Desktop\Pages\HomePage.cs:line 85
+   at BDD_AutomationTests.Behavior.ExecuteLoginBehavior.Perform3() in D:\BDD_AutomationTests\ICE Desktop\Behavior\ExecuteLoginBehavior.cs:line 31
+   at BDD_AutomationTests.Steps.LoginStepDefinition.ThenLogoutTheUser() in D:\BDD_AutomationTests\ICE Desktop\Steps\LoginStepDefinition.cs:line 43
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-02 12:31:02.740 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-02 12:31:02.758 | INF | ==================================================================================
+ 2024-07-02 12:31:02.762 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-07-02 12:31:02.776 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-07-02 12:31:08.562 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-07-02 12:31:13.803 | INF | "Verify home page is dispalyed"
+ 2024-07-02 12:31:56.834 | ERR | Test step failed | Unable to find element with xpath == //iframe[@id='ifPages']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at BDD_AutomationTests.Pages.HomePage.Logout() in D:\BDD_AutomationTests\ICE Desktop\Pages\HomePage.cs:line 85
+   at BDD_AutomationTests.Behavior.ExecuteLoginBehavior.Perform3() in D:\BDD_AutomationTests\ICE Desktop\Behavior\ExecuteLoginBehavior.cs:line 31
+   at BDD_AutomationTests.Steps.LoginStepDefinition.ThenLogoutTheUser() in D:\BDD_AutomationTests\ICE Desktop\Steps\LoginStepDefinition.cs:line 43
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-02 12:33:40.408 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-02 12:33:40.426 | INF | ==================================================================================
+ 2024-07-02 12:33:40.430 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-07-02 12:33:40.443 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-07-02 12:33:46.008 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-07-02 12:33:50.980 | INF | "Verify home page is dispalyed"
+ 2024-07-02 12:34:34.418 | ERR | Test step failed | Unable to find element with xpath == //*[@id='ifPages']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at BDD_AutomationTests.Pages.HomePage.Logout() in D:\BDD_AutomationTests\ICE Desktop\Pages\HomePage.cs:line 85
+   at BDD_AutomationTests.Behavior.ExecuteLoginBehavior.Perform3() in D:\BDD_AutomationTests\ICE Desktop\Behavior\ExecuteLoginBehavior.cs:line 31
+   at BDD_AutomationTests.Steps.LoginStepDefinition.ThenLogoutTheUser() in D:\BDD_AutomationTests\ICE Desktop\Steps\LoginStepDefinition.cs:line 43
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-02 12:42:15.784 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-02 12:42:15.807 | INF | ==================================================================================
+ 2024-07-02 12:42:15.812 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-07-02 12:42:15.829 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-07-02 12:42:24.732 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-07-02 12:42:32.236 | INF | "Verify home page is dispalyed"
+ 2024-07-02 12:43:20.015 | ERR | Test step failed | Unable to find element with xpath == //*[@id='ifPages']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at BDD_AutomationTests.Pages.HomePage.Logout() in D:\BDD_AutomationTests\ICE Desktop\Pages\HomePage.cs:line 85
+   at BDD_AutomationTests.Behavior.ExecuteLoginBehavior.Perform3() in D:\BDD_AutomationTests\ICE Desktop\Behavior\ExecuteLoginBehavior.cs:line 31
+   at BDD_AutomationTests.Steps.LoginStepDefinition.ThenLogoutTheUser() in D:\BDD_AutomationTests\ICE Desktop\Steps\LoginStepDefinition.cs:line 43
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-02 12:50:34.037 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-02 12:50:34.062 | INF | ==================================================================================
+ 2024-07-02 12:50:34.067 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-07-02 12:50:34.092 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-07-02 12:50:42.893 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-07-02 12:50:49.371 | INF | "Verify home page is dispalyed"
+ 2024-07-02 12:51:40.521 | ERR | Test step failed | Unable to find element with xpath == //*[@pageid='s']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at BDD_AutomationTests.Pages.HomePage.Logout() in D:\BDD_AutomationTests\ICE Desktop\Pages\HomePage.cs:line 88
+   at BDD_AutomationTests.Behavior.ExecuteLoginBehavior.Perform3() in D:\BDD_AutomationTests\ICE Desktop\Behavior\ExecuteLoginBehavior.cs:line 31
+   at BDD_AutomationTests.Steps.LoginStepDefinition.ThenLogoutTheUser() in D:\BDD_AutomationTests\ICE Desktop\Steps\LoginStepDefinition.cs:line 43
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-02 12:58:36.813 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-02 12:58:36.838 | INF | ==================================================================================
+ 2024-07-02 12:58:36.843 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-07-02 12:58:36.861 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-07-02 12:58:46.324 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-07-02 12:58:53.645 | INF | "Verify home page is dispalyed"
+ 2024-07-02 12:59:41.463 | ERR | Test step failed | Unable to find element with xpath == //iframe[@id='ifPages']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at BDD_AutomationTests.Pages.HomePage.Logout() in D:\BDD_AutomationTests\ICE Desktop\Pages\HomePage.cs:line 88
+   at BDD_AutomationTests.Behavior.ExecuteLoginBehavior.Perform3() in D:\BDD_AutomationTests\ICE Desktop\Behavior\ExecuteLoginBehavior.cs:line 31
+   at BDD_AutomationTests.Steps.LoginStepDefinition.ThenLogoutTheUser() in D:\BDD_AutomationTests\ICE Desktop\Steps\LoginStepDefinition.cs:line 43
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-02 13:00:38.312 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-02 13:00:38.336 | INF | ==================================================================================
+ 2024-07-02 13:00:38.340 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-07-02 13:00:38.358 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-07-02 13:00:47.360 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-07-02 13:00:54.115 | INF | "Verify home page is dispalyed"
+ 2024-07-02 13:01:45.674 | ERR | Test step failed | Unable to find element with xpath == //*[@id='ifPages']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at BDD_AutomationTests.Pages.HomePage.Logout() in D:\BDD_AutomationTests\ICE Desktop\Pages\HomePage.cs:line 89
+   at BDD_AutomationTests.Behavior.ExecuteLoginBehavior.Perform3() in D:\BDD_AutomationTests\ICE Desktop\Behavior\ExecuteLoginBehavior.cs:line 31
+   at BDD_AutomationTests.Steps.LoginStepDefinition.ThenLogoutTheUser() in D:\BDD_AutomationTests\ICE Desktop\Steps\LoginStepDefinition.cs:line 43
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-02 13:07:29.806 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-02 13:07:29.834 | INF | ==================================================================================
+ 2024-07-02 13:07:29.839 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-07-02 13:07:29.859 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-07-02 13:07:40.668 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-07-02 13:07:48.976 | INF | "Verify home page is dispalyed"
+ 2024-07-02 13:08:17.517 | INF | "Logout the user"
+ 2024-07-02 14:09:42.705 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-02 14:09:42.733 | INF | ==================================================================================
+ 2024-07-02 14:09:42.738 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-07-02 14:09:42.776 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-07-02 14:09:53.022 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-07-02 14:09:59.229 | INF | "Verify home page is dispalyed"
+ 2024-07-02 14:10:30.808 | INF | "Logout the user"
+ 2024-07-02 15:12:43.552 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-02 15:12:43.579 | INF | ==================================================================================
+ 2024-07-02 15:12:43.587 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-07-02 15:12:43.642 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-07-02 15:12:53.974 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-07-02 15:13:01.203 | INF | "Verify home page is dispalyed"
+ 2024-07-02 15:14:00.333 | ERR | Test step failed | Unable to find element with xpath == //*[@id='txtSearch']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at BDD_AutomationTests.Pages.HomePage.Logout() in D:\BDD_AutomationTests\ICE Desktop\Pages\HomePage.cs:line 97
+   at BDD_AutomationTests.Behavior.ExecuteLoginBehavior.Perform3() in D:\BDD_AutomationTests\ICE Desktop\Behavior\ExecuteLoginBehavior.cs:line 31
+   at BDD_AutomationTests.Steps.LoginStepDefinition.ThenLogoutTheUser() in D:\BDD_AutomationTests\ICE Desktop\Steps\LoginStepDefinition.cs:line 43
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-02 15:21:01.931 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-02 15:21:01.955 | INF | ==================================================================================
+ 2024-07-02 15:21:01.960 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-07-02 15:21:01.980 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-07-02 15:21:11.338 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-07-02 15:21:18.701 | INF | "Verify home page is dispalyed"
+ 2024-07-02 15:22:18.019 | ERR | Test step failed | Unable to find element with xpath == //td//*[@id='txtSearch']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at BDD_AutomationTests.Pages.HomePage.Logout() in D:\BDD_AutomationTests\ICE Desktop\Pages\HomePage.cs:line 97
+   at BDD_AutomationTests.Behavior.ExecuteLoginBehavior.Perform3() in D:\BDD_AutomationTests\ICE Desktop\Behavior\ExecuteLoginBehavior.cs:line 31
+   at BDD_AutomationTests.Steps.LoginStepDefinition.ThenLogoutTheUser() in D:\BDD_AutomationTests\ICE Desktop\Steps\LoginStepDefinition.cs:line 43
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-02 15:23:02.961 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-02 15:23:02.991 | INF | ==================================================================================
+ 2024-07-02 15:23:02.996 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-07-02 15:23:03.015 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-07-02 15:23:12.103 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-07-02 15:23:19.456 | INF | "Verify home page is dispalyed"
+ 2024-07-02 15:24:19.012 | ERR | Test step failed | Unable to find element with xpath == //td//*[@id='txtSearch']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at BDD_AutomationTests.Pages.HomePage.Logout() in D:\BDD_AutomationTests\ICE Desktop\Pages\HomePage.cs:line 98
+   at BDD_AutomationTests.Behavior.ExecuteLoginBehavior.Perform3() in D:\BDD_AutomationTests\ICE Desktop\Behavior\ExecuteLoginBehavior.cs:line 31
+   at BDD_AutomationTests.Steps.LoginStepDefinition.ThenLogoutTheUser() in D:\BDD_AutomationTests\ICE Desktop\Steps\LoginStepDefinition.cs:line 43
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-02 15:41:11.510 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-02 15:41:11.533 | INF | ==================================================================================
+ 2024-07-02 15:41:11.538 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-07-02 15:41:11.556 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-07-02 15:41:20.792 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-07-02 15:41:28.669 | INF | "Verify home page is dispalyed"
+ 2024-07-02 15:42:27.760 | ERR | Test step failed | Unable to find element with xpath == //*[@id='tdSearchPane']//child::input[@id='txtSearch']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at BDD_AutomationTests.Pages.HomePage.Logout() in D:\BDD_AutomationTests\ICE Desktop\Pages\HomePage.cs:line 98
+   at BDD_AutomationTests.Behavior.ExecuteLoginBehavior.Perform3() in D:\BDD_AutomationTests\ICE Desktop\Behavior\ExecuteLoginBehavior.cs:line 31
+   at BDD_AutomationTests.Steps.LoginStepDefinition.ThenLogoutTheUser() in D:\BDD_AutomationTests\ICE Desktop\Steps\LoginStepDefinition.cs:line 43
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-02 15:51:25.930 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-02 15:51:25.955 | INF | ==================================================================================
+ 2024-07-02 15:51:25.960 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-07-02 15:51:25.978 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-07-02 15:51:35.493 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-07-02 15:51:43.232 | INF | "Verify home page is dispalyed"
+ 2024-07-02 15:52:42.445 | ERR | Test step failed | Unable to find element with xpath == //*[text()='Name:']//child::input[@id='txtSearch']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at BDD_AutomationTests.Pages.HomePage.Logout() in D:\BDD_AutomationTests\ICE Desktop\Pages\HomePage.cs:line 98
+   at BDD_AutomationTests.Behavior.ExecuteLoginBehavior.Perform3() in D:\BDD_AutomationTests\ICE Desktop\Behavior\ExecuteLoginBehavior.cs:line 31
+   at BDD_AutomationTests.Steps.LoginStepDefinition.ThenLogoutTheUser() in D:\BDD_AutomationTests\ICE Desktop\Steps\LoginStepDefinition.cs:line 43
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 

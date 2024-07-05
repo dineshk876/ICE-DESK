@@ -1,0 +1,71 @@
+2024-06-27 15:53:37.950 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-06-27 15:53:37.974 | INF | ==================================================================================
+ 2024-06-27 15:53:37.979 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-06-27 15:53:38.013 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-06-27 15:53:47.495 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-06-27 15:53:53.685 | INF | "Verify home page is dispalyed"
+ 2024-06-27 15:54:34.397 | ERR | Test step failed | Unable to find element with xpath == //*[text()='Log Off']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at BDD_AutomationTests.Pages.HomePage.Logout() in D:\BDD_AutomationTests\ICE Desktop\Pages\HomePage.cs:line 70
+   at BDD_AutomationTests.Behavior.ExecuteLoginBehavior.Perform3() in D:\BDD_AutomationTests\ICE Desktop\Behavior\ExecuteLoginBehavior.cs:line 31
+   at BDD_AutomationTests.Steps.LoginStepDefinition.ThenLogoutTheUser() in D:\BDD_AutomationTests\ICE Desktop\Steps\LoginStepDefinition.cs:line 43
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-06-27 16:02:59.776 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-06-27 16:02:59.801 | INF | ==================================================================================
+ 2024-06-27 16:02:59.805 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-06-27 16:02:59.824 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-06-27 16:03:09.197 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-06-27 16:03:15.936 | INF | "Verify home page is dispalyed"
+ 2024-06-27 16:03:21.612 | ERR | Test step failed |   error
+Assert.That(_valid, Is.EqualTo("User:sunquestr"))
+  Expected string length 14 but was 13. Strings differ at index 13.
+  Expected: "User:sunquestr"
+  But was:  "User:sunquest"
+  ------------------------^
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, String actualExpression, String constraintExpression)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, NUnitString message, String actualExpression, String constraintExpression)
+   at BDD_AutomationTests.Pages.HomePage.Logout() in D:\BDD_AutomationTests\ICE Desktop\Pages\HomePage.cs:line 63
+   at BDD_AutomationTests.Behavior.ExecuteLoginBehavior.Perform3() in D:\BDD_AutomationTests\ICE Desktop\Behavior\ExecuteLoginBehavior.cs:line 31
+   at BDD_AutomationTests.Steps.LoginStepDefinition.ThenLogoutTheUser() in D:\BDD_AutomationTests\ICE Desktop\Steps\LoginStepDefinition.cs:line 43
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-06-27 16:05:30.022 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-06-27 16:05:30.048 | INF | ==================================================================================
+ 2024-06-27 16:05:30.053 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-06-27 16:05:30.072 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-06-27 16:05:39.443 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-06-27 16:05:45.822 | INF | "Verify home page is dispalyed"
+ 2024-06-27 16:06:02.883 | INF | "Logout the user"
+ 2024-06-27 16:15:32.110 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-06-27 16:15:32.133 | INF | ==================================================================================
+ 2024-06-27 16:15:32.139 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-06-27 16:15:32.157 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-06-27 16:15:41.548 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-06-27 16:15:48.594 | INF | "Verify home page is dispalyed"
+ 2024-06-27 16:16:05.624 | INF | "Logout the user"
+ 2024-06-27 16:18:04.052 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-06-27 16:18:04.086 | INF | ==================================================================================
+ 2024-06-27 16:18:04.095 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-06-27 16:18:04.115 | INF | Selecting scenario "Login with invalid credentials" to run
+ 2024-06-27 16:18:12.432 | INF | "Login with credentials ice\sunquest and icedmin"
+ 2024-06-27 16:18:12.815 | INF | "Verify invalid credential message is displaying"
+ 2024-06-27 16:18:12.843 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-06-27 16:18:20.661 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-06-27 16:18:27.711 | INF | "Verify home page is dispalyed"
+ 2024-06-27 16:18:45.041 | INF | "Logout the user"
+ 2024-06-27 16:39:35.355 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-06-27 16:39:35.392 | INF | ==================================================================================
+ 2024-06-27 16:39:35.399 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-06-27 16:39:35.460 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-06-27 16:39:45.833 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-06-27 16:39:52.386 | INF | "Verify home page is dispalyed"
+ 2024-06-27 16:40:04.799 | INF | "Logout the user"
+ 
