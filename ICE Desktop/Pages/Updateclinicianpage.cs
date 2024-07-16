@@ -1,5 +1,7 @@
-﻿using BDD_AutomationTests.Drivers;
+﻿using BDD_AutomationTests.Behavior;
+using BDD_AutomationTests.Drivers;
 using Nest;
+using NUnit.Framework.Internal;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using System;
@@ -8,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace ICE_Desktop.Pages
 {
@@ -30,7 +33,10 @@ namespace ICE_Desktop.Pages
         By _org = By.XPath("//select[@id='LocOrganisationList']");
         By _loc1 = By.XPath("//select[@id='LocationListBox']");
         By _selectloc = By.XPath("//input[@id='AddButton']");
+        By _deselect = By.XPath("//select[@id='ClinicianListBox']");
+        By _leftarrow = By.XPath("//input[@id='RemoveButton']");
         By _updateclini = By.XPath("//input[@id='btnUpdate']");
+        By _gpcheckbox = By.XPath("//input[@id='chkGP']");
 
         public void DesktopConfig()
         {
@@ -68,27 +74,152 @@ namespace ICE_Desktop.Pages
         public void Selectlocation()
         {
             Thread.Sleep(5000);
-            driver.FindElement(_org).Click();
-            OpenQA.Selenium.Interactions.Actions actions1 = new OpenQA.Selenium.Interactions.Actions(driver);
-            actions1.SendKeys(Keys.Tab);
-            for (int i = 0; i < 21; i++)
+
+            IWebElement dropdown = driver.FindElement(_loc1);
+            IJavaScriptExecutor jsExecutor = (IJavaScriptExecutor)driver;
+
+            // JavaScript to select an option by its visible text if it exists
+            string visibleText = "(AHSL1) Babbage Unit";
+            string script = @"
+                var select = arguments[0];
+                var text = arguments[1];
+                var found = false;
+                for (var i = 0; i < select.options.length; i++) {
+                    if (select.options[i].text === text) {
+                        select.selectedIndex = i;
+                        var event = document.createEvent ? new Event('change', { bubbles: true }) : document.createEventObject();
+                        if (document.createEvent) {
+                            select.dispatchEvent(event);
+                        } else {
+                            select.fireEvent('onchange', event);
+                        }
+                        found = true;
+                        break;
+                    }
+                }
+                return found;"; // return whether the option was found or not
+
+            // Execute the script and get the result
+            bool isOptionFound = (bool)jsExecutor.ExecuteScript(script, dropdown, visibleText);
+
+           
+            SelectElement selectElement = new SelectElement(dropdown);
+            if (isOptionFound && selectElement.SelectedOption.Text == visibleText)
             {
-                actions1.SendKeys(Keys.ArrowDown).Perform();
+               
+                Thread.Sleep(5000);
+                driver.FindElement(_selectloc).Click();
+                driver.FindElement(_updateclini).Click();
+                IAlert Ok = driver.SwitchTo().Alert();
+                Ok.Accept();
+            }
+            else
+            {
+               
+                driver.FindElement(_updateclini).Click();
+                IAlert Ok = driver.SwitchTo().Alert();
+                Ok.Accept();
+            }
+            var listelements=driver.FindElements(_deselect);
+            string exptext = "(AHSL1) Babbage Unit";
+            bool found = listelements.Any(element => element.Text.Contains(exptext));
+            if (!found)
+            {
+                throw new Exception($"'{exptext}' not found in the list");
             }
         }
 
-        public void rightarrow()
+       
+        public void DeselectspecificLocation()
+        {
+            
+            Thread.Sleep(5000);
+            /* driver.FindElement(_org).Click();
+             OpenQA.Selenium.Interactions.Actions actions1 = new OpenQA.Selenium.Interactions.Actions(driver);
+             actions1.SendKeys(Keys.Tab);
+             for (int i = 0; i < 3; i++)
+             {
+                 actions1.SendKeys(Keys.Tab).Perform();
+             }
+             Thread.Sleep(5000);
+             actions1.SendKeys(Keys.ArrowUp).Perform();*/
+
+            IWebElement dropdown = driver.FindElement(_deselect);
+            IJavaScriptExecutor jsExecutor = (IJavaScriptExecutor)driver;
+
+            // JavaScript to select an option by its visible text if it exists
+            string visibleText = "(AHSL1) Babbage Unit";
+            string script = @"
+                var select = arguments[0];
+                var text = arguments[1];
+                var found = false;
+                for (var i = 0; i < select.options.length; i++) {
+                    if (select.options[i].text === text) {
+                        select.selectedIndex = i;
+                        var event = document.createEvent ? new Event('change', { bubbles: true }) : document.createEventObject();
+                        if (document.createEvent) {
+                            select.dispatchEvent(event);
+                        } else {
+                            select.fireEvent('onchange', event);
+                        }
+                        found = true;
+                        break;
+                    }
+                }
+                return found;"; // return whether the option was found or not
+
+            // Execute the script and get the result
+            bool isOptionFound = (bool)jsExecutor.ExecuteScript(script, dropdown, visibleText);
+
+
+            SelectElement selectElement = new SelectElement(dropdown);
+            if (isOptionFound && selectElement.SelectedOption.Text == visibleText)
+            {
+
+                Thread.Sleep(5000);
+                driver.FindElement(_leftarrow).Click();
+                driver.FindElement(_updateclini).Click();
+                IAlert Ok = driver.SwitchTo().Alert();
+                Ok.Accept();
+            }
+            else
+            {
+
+                driver.FindElement(_updateclini).Click();
+                IAlert Ok = driver.SwitchTo().Alert();
+                Ok.Accept();
+            }
+
+            var listelements = driver.FindElements(_deselect);
+            string exptext = "(AHSL1) Babbage Unit";
+            bool found = listelements.Any(element => element.Text.Contains(exptext));
+            if (found)
+            {
+                throw new Exception($"'{exptext}'  found in the list");
+            }
+        }
+        public void leftarrow()
         {
             Thread.Sleep(5000);
-            driver.FindElement(_selectloc).Click();
-        }
-
-        public void Updateclinician()
-        {
-
+           
             driver.FindElement(_updateclini).Click();
             IAlert Ok = driver.SwitchTo().Alert();
             Ok.Accept();
+        }
+
+        public void verifycheckbox()
+        {
+
+            Baseclass.WaitForElementToBeVisible(driver, _gpcheckbox, 10);
+            IWebElement checkbox = driver.FindElement(_gpcheckbox);
+            if(!checkbox.Selected)
+            {
+                checkbox.Click();
+                driver.FindElement(_updateclini).Click();
+                IAlert Ok = driver.SwitchTo().Alert();
+                Ok.Accept();
+            }
+           
         }
     }
 }

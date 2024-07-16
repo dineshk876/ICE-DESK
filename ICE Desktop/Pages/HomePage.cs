@@ -46,11 +46,29 @@ namespace BDD_AutomationTests.Pages
            IWebElement _secloc = driver.FindElement(Location1);
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(1));
             wait.Until(e => (_secloc));
-            OpenQA.Selenium.Interactions.Actions actions = new OpenQA.Selenium.Interactions.Actions(driver);
+            /*OpenQA.Selenium.Interactions.Actions actions = new OpenQA.Selenium.Interactions.Actions(driver);
                 for (int i=0; i<17; i++) 
             { 
                 actions.SendKeys(Keys.ArrowDown).Perform(); 
-            }
+            }*/
+
+            IWebElement dropdown1 = driver.FindElement(Location1);
+            IJavaScriptExecutor jsExecutor = (IJavaScriptExecutor)driver;
+            /*string script = "arguments[0].value='478';";
+            jsExecutor.ExecuteScript(script, dropdown);*/
+            string text13 = "(AHSL1) Barfoo Clinic";
+
+            var script = @"
+            var options = arguments[0].options;
+            for (var i = 0; i < options.length; i++)
+            {
+                if (options[i].text === arguments[1])
+                {
+                    options[i].selected = true;
+                    break;
+                }
+            }";
+            jsExecutor.ExecuteScript(script, dropdown1, text13);
             driver.FindElement(submit).Click();
 
             

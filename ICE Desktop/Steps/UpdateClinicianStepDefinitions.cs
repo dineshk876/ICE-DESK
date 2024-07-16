@@ -68,22 +68,25 @@ namespace ICE_Desktop.Steps
             _updateClinicianPageDefinition.Clinicianlocation();
         }
 
-        [When(@"Select location from the list")]
-        public void WhenSelectLocationFromTheList()
+       
+        [Then(@"Select location from the list and Update")]
+        public void ThenSelectLocationFromTheListAndUpdate()
         {
             _updateClinicianPageDefinition.Selectlocation();
         }
 
-        [When(@"Click Right arrow")]
-        public void WhenClickRightArrow()
+       
+        [Then(@"Deselect specific Location from the list and update")]
+        public void ThenDeselectSpecificLocationFromTheListAndUpdate()
         {
-            _updateClinicianPageDefinition.rightarrow();
+            _updateClinicianPageDefinition.DeselectspecificLocation();
         }
 
-        [Then(@"Click Update")]
-        public void ThenClickUpdate()
+        [Then(@"verify checkbox is selected or not")]
+        public void ThenVerifyCheckboxIsSelectedOrNot()
         {
-            _updateClinicianPageDefinition.Updateclinician();
+            _updateClinicianPageDefinition.verifycheckbox();
         }
+
     }
 }
