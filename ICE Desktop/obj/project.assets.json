@@ -11627,11 +11627,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\NEW DESK\\ICE Desktop\\ICE Desktop\\ICE_Desktop.csproj",
+      "projectUniqueName": "C:\\DK - DRIVE\\ICE DESKTOP\\ICE-DESK\\ICE Desktop\\ICE_Desktop.csproj",
       "projectName": "ICE_Desktop",
-      "projectPath": "D:\\NEW DESK\\ICE Desktop\\ICE Desktop\\ICE_Desktop.csproj",
+      "projectPath": "C:\\DK - DRIVE\\ICE DESKTOP\\ICE-DESK\\ICE Desktop\\ICE_Desktop.csproj",
       "packagesPath": "C:\\Users\\kumard\\.nuget\\packages\\",
-      "outputPath": "D:\\NEW DESK\\ICE Desktop\\ICE Desktop\\obj\\",
+      "outputPath": "C:\\DK - DRIVE\\ICE DESKTOP\\ICE-DESK\\ICE Desktop\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

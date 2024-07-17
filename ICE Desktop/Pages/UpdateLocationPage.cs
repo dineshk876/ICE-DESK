@@ -31,6 +31,11 @@ namespace ICE_Desktop.Pages
         By _interop = By.XPath("//input[@id='InteropAutoForwardCheckBox']");
         By _active = By.XPath("//input[@id='chkActive']");
         By _update = By.XPath("//input[@id='btnUpdate']");
+        By _locroom = By.XPath("//input[@id='btnGotoRooms']");
+        By _locroomname = By.XPath("//input[@name='dtaRooms$ctl03$ctl00']");
+        By _roomactive = By.XPath("//input[@id='chkRoomActive']");
+        By _updateroom = By.XPath("//input[@id='btnRoomUpdate']");
+        By _backtoloc = By.XPath("//input[@id='btnGoToPage2']");
         public void Locationeditor()
         {
             IWebElement _frame_ = driver.FindElement(_frame_1);
@@ -86,16 +91,16 @@ namespace ICE_Desktop.Pages
 
         public void editlocation()
         {
-           
+
             driver.FindElement(_edloc).Click();
-            
+
         }
 
         public void orglocation()
         {
             Thread.Sleep(5000);
             IWebElement s2 = driver.FindElement(_orgloc);
-           
+
             // Initialize the SelectElement for the dropdown
             SelectElement selectElement = new SelectElement(s2);
 
@@ -130,9 +135,10 @@ namespace ICE_Desktop.Pages
                         }
                     }
                 ", s2);
+                IAlert Ok = driver.SwitchTo().Alert();
+                Ok.Accept();
             }
-            IAlert Ok = driver.SwitchTo().Alert();
-            Ok.Accept();
+           
         }
         public void GP()
         {
@@ -141,10 +147,10 @@ namespace ICE_Desktop.Pages
             if (!checkbox.Selected)
             {
                 checkbox.Click();
-                
+
             }
         }
-        public void Interop() 
+        public void Interop()
         {
             Baseclass.WaitForElementToBeVisible(driver, _interop, 10);
             IWebElement checkbox = driver.FindElement(_interop);
@@ -169,9 +175,33 @@ namespace ICE_Desktop.Pages
             IAlert Ok = driver.SwitchTo().Alert();
             Ok.Accept();
         }
+
+        public void Locroom()
+        {
+            driver.FindElement(_locroom).Click();
+        }
+
+        public void Locroomname()
+        {
+            driver.FindElement(_locroomname).Click();
+        }
+        public void Roomactive()
+        {
+            Baseclass.WaitForElementToBeVisible(driver, _roomactive, 10);
+            IWebElement checkbox = driver.FindElement(_roomactive);
+            if (!checkbox.Selected)
+            {
+                checkbox.Click();
+                driver.FindElement(_updateroom).Click();
+            }
+            else
+            {
+                driver.FindElement(_backtoloc).Click();
+            }
+        }
+
     }
-    
-    }
+}
     
         
     

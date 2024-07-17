@@ -37,8 +37,8 @@ namespace ICE_Desktop.Steps
             _updateLocationPage.searchlocation();
         }
 
-        [When(@"Click edit buuton")]
-        public void WhenClickEditBuuton()
+        [When(@"Click edit button")]
+        public void WhenClickEditButton()
         {
             _updateLocationPage.editlocation();
             _updateLocationPage.orglocation();
@@ -62,5 +62,25 @@ namespace ICE_Desktop.Steps
             _updateLocationPage.Active();
             _updateLocationPage.Update();
         }
+
+
+        [When(@"Click Add/update Rooms button")]
+        public void WhenClickAddUpdateRoomsButton()
+        {
+            _updateLocationPage.Locroom(); 
+        }
+
+        [When(@"Click edit button on required room")]
+        public void WhenClickEditButtonOnRequiredRoom()
+        {
+            _updateLocationPage.Locroomname(); 
+        }
+
+        [Then(@"Verify Location room is active")]
+        public void ThenVerifyLocationRoomIsActive()
+        {
+            _updateLocationPage.Roomactive();
+        }
+
     }
 }
