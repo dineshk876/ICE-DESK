@@ -1,0 +1,887 @@
+2024-07-18 12:58:36.177 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 12:58:36.214 | INF | ==================================================================================
+ 2024-07-18 12:58:36.220 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 12:58:36.260 | INF | Selecting scenario "Verify Active Location in search page" to run
+ 2024-07-18 12:58:53.430 | INF | "user Login with ICE application"
+ 2024-07-18 12:58:54.909 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 12:58:56.530 | INF | "click Locations editor"
+ 2024-07-18 12:58:56.751 | INF | "Select required organization from Dropdown"
+ 2024-07-18 12:58:57.131 | ERR | Test step failed | Element is no longer valid; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.get_TagName()
+   at OpenQA.Selenium.Support.UI.SelectElement..ctor(IWebElement element)
+   at BDD_AutomationTests.Behavior.Baseclass.Dropdown(IWebElement element, String text) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Behavior\Baseclass.cs:line 146
+   at ICE_Desktop.Pages.UpdateLocationPage.Activelocfilter() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\UpdateLocationPage.cs:line 210
+   at ICE_Desktop.Steps.UpdateLocationStepDefinitions.WhenSelectActiveLocationDropdown() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\UpdateLocationStepDefinitions.cs:line 88
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-18 13:01:24.999 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 13:01:25.032 | INF | ==================================================================================
+ 2024-07-18 13:01:25.041 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 13:01:25.073 | INF | Selecting scenario "Verify Active Location in search page" to run
+ 2024-07-18 13:01:39.250 | INF | "user Login with ICE application"
+ 2024-07-18 13:01:41.370 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 13:01:43.243 | INF | "click Locations editor"
+ 2024-07-18 13:01:43.459 | INF | "Select required organization from Dropdown"
+ 2024-07-18 13:01:43.843 | ERR | Test step failed | Element is no longer valid; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.get_TagName()
+   at OpenQA.Selenium.Support.UI.SelectElement..ctor(IWebElement element)
+   at BDD_AutomationTests.Behavior.Baseclass.Dropdown(IWebElement element, String text) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Behavior\Baseclass.cs:line 146
+   at ICE_Desktop.Pages.UpdateLocationPage.Activelocfilter() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\UpdateLocationPage.cs:line 211
+   at ICE_Desktop.Steps.UpdateLocationStepDefinitions.WhenSelectActiveLocationDropdown() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\UpdateLocationStepDefinitions.cs:line 88
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-18 13:07:36.633 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 13:07:36.656 | INF | ==================================================================================
+ 2024-07-18 13:07:36.661 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 13:07:36.678 | INF | Selecting scenario "Verify Active Location in search page" to run
+ 2024-07-18 13:07:51.488 | INF | "user Login with ICE application"
+ 2024-07-18 13:07:53.278 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 13:07:54.895 | INF | "click Locations editor"
+ 2024-07-18 13:07:55.066 | INF | "Select required organization from Dropdown"
+ 2024-07-18 13:07:56.397 | ERR | Test step failed | Cannot click on option element. Executing JavaScript click function returned an unexpected error, but no error could be returned from Internet Explorer's JavaScript engine.   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at OpenQA.Selenium.Support.UI.SelectElement.SelectByText(String text, Boolean partialMatch)
+   at ICE_Desktop.Pages.UpdateLocationPage.Activelocfilter() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\UpdateLocationPage.cs:line 214
+   at ICE_Desktop.Steps.UpdateLocationStepDefinitions.WhenSelectActiveLocationDropdown() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\UpdateLocationStepDefinitions.cs:line 88
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-18 13:09:51.990 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 13:09:52.020 | INF | ==================================================================================
+ 2024-07-18 13:09:52.027 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 13:09:52.046 | INF | Selecting scenario "Verify Active Location in search page" to run
+ 2024-07-18 13:10:07.178 | INF | "user Login with ICE application"
+ 2024-07-18 13:10:08.733 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 13:10:10.733 | INF | "click Locations editor"
+ 2024-07-18 13:10:10.968 | INF | "Select required organization from Dropdown"
+ 2024-07-18 13:10:11.746 | INF | "Select Active location dropdown"
+ 2024-07-18 13:10:12.155 | ERR | Test step failed | Element cannot be interacted with via the keyboard because it is not enabled   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.SendKeys(String text)
+   at ICE_Desktop.Pages.UpdateLocationPage.verifyactiveloc() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\UpdateLocationPage.cs:line 251
+   at ICE_Desktop.Steps.UpdateLocationStepDefinitions.ThenVerifyOnlyActiveLocationsAreDisplayed() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\UpdateLocationStepDefinitions.cs:line 94
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-18 13:13:02.554 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 13:13:02.584 | INF | ==================================================================================
+ 2024-07-18 13:13:02.590 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 13:13:02.617 | INF | Selecting scenario "Verify Active Location in search page" to run
+ 2024-07-18 13:13:17.357 | INF | "user Login with ICE application"
+ 2024-07-18 13:13:19.123 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 13:13:20.968 | INF | "click Locations editor"
+ 2024-07-18 13:13:21.170 | INF | "Select required organization from Dropdown"
+ 2024-07-18 13:13:21.560 | ERR | Test step failed | Error executing JavaScript; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)
+   at OpenQA.Selenium.WebDriver.ExecuteScript(String script, Object[] args)
+   at ICE_Desktop.Pages.UpdateLocationPage.Activelocfilter() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\UpdateLocationPage.cs:line 245
+   at ICE_Desktop.Steps.UpdateLocationStepDefinitions.WhenSelectActiveLocationDropdown() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\UpdateLocationStepDefinitions.cs:line 88
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-18 13:14:29.777 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 13:14:29.805 | INF | ==================================================================================
+ 2024-07-18 13:14:29.810 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 13:14:29.831 | INF | Selecting scenario "Verify Active Location in search page" to run
+ 2024-07-18 13:14:44.589 | INF | "user Login with ICE application"
+ 2024-07-18 13:14:46.556 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 13:14:48.141 | INF | "click Locations editor"
+ 2024-07-18 13:14:48.387 | INF | "Select required organization from Dropdown"
+ 2024-07-18 13:14:49.739 | INF | "Select Active location dropdown"
+ 2024-07-18 13:14:50.263 | ERR | Test step failed | Element cannot be interacted with via the keyboard because it is not displayed   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.SendKeys(String text)
+   at ICE_Desktop.Pages.UpdateLocationPage.verifyactiveloc() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\UpdateLocationPage.cs:line 251
+   at ICE_Desktop.Steps.UpdateLocationStepDefinitions.ThenVerifyOnlyActiveLocationsAreDisplayed() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\UpdateLocationStepDefinitions.cs:line 94
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-18 13:15:31.991 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 13:15:32.022 | INF | ==================================================================================
+ 2024-07-18 13:15:32.027 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 13:15:32.046 | INF | Selecting scenario "Verify Active Location in search page" to run
+ 2024-07-18 13:15:45.573 | INF | "user Login with ICE application"
+ 2024-07-18 13:15:47.087 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 13:15:48.723 | INF | "click Locations editor"
+ 2024-07-18 13:15:48.879 | INF | "Select required organization from Dropdown"
+ 2024-07-18 13:15:49.679 | INF | "Select Active location dropdown"
+ 2024-07-18 13:15:53.293 | INF | "Verify only Active locations are displayed"
+ 2024-07-18 13:17:47.448 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 13:17:47.475 | INF | ==================================================================================
+ 2024-07-18 13:17:47.482 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 13:17:47.502 | INF | Selecting scenario "Verify Active Location in search page" to run
+ 2024-07-18 13:18:01.800 | INF | "user Login with ICE application"
+ 2024-07-18 13:18:03.857 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 13:18:05.596 | INF | "click Locations editor"
+ 2024-07-18 13:18:05.830 | INF | "Select required organization from Dropdown"
+ 2024-07-18 13:18:07.186 | INF | "Select Active location dropdown"
+ 2024-07-18 13:18:11.887 | INF | "Verify only Active locations are displayed"
+ 2024-07-18 13:18:27.846 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 13:18:27.878 | INF | ==================================================================================
+ 2024-07-18 13:18:27.883 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 13:18:27.901 | INF | Selecting scenario "Verify Active Location in search page" to run
+ 2024-07-18 13:18:41.465 | INF | "user Login with ICE application"
+ 2024-07-18 13:18:43.102 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 13:18:44.575 | INF | "click Locations editor"
+ 2024-07-18 13:18:44.764 | INF | "Select required organization from Dropdown"
+ 2024-07-18 13:18:46.026 | INF | "Select Active location dropdown"
+ 2024-07-18 13:18:50.473 | INF | "Verify only Active locations are displayed"
+ 2024-07-18 13:20:01.893 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 13:20:01.922 | INF | ==================================================================================
+ 2024-07-18 13:20:01.928 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 13:20:01.948 | INF | Selecting scenario "Verify Active Location in search page" to run
+ 2024-07-18 13:20:16.870 | INF | "user Login with ICE application"
+ 2024-07-18 13:20:18.830 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 13:20:20.221 | INF | "click Locations editor"
+ 2024-07-18 13:20:20.468 | INF | "Select required organization from Dropdown"
+ 2024-07-18 13:20:21.906 | INF | "Select Active location dropdown"
+ 2024-07-18 13:20:22.837 | ERR | Test step failed | Element is not displayed   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at ICE_Desktop.Pages.UpdateLocationPage.verifyactiveloc() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\UpdateLocationPage.cs:line 252
+   at ICE_Desktop.Steps.UpdateLocationStepDefinitions.ThenVerifyOnlyActiveLocationsAreDisplayed() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\UpdateLocationStepDefinitions.cs:line 94
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-18 13:26:58.013 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 13:26:58.037 | INF | ==================================================================================
+ 2024-07-18 13:26:58.042 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 13:26:58.062 | INF | Selecting scenario "Verify Active Location in search page" to run
+ 2024-07-18 13:27:13.836 | INF | "user Login with ICE application"
+ 2024-07-18 13:27:15.429 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 13:27:17.060 | INF | "click Locations editor"
+ 2024-07-18 13:27:17.266 | INF | "Select required organization from Dropdown"
+ 2024-07-18 13:27:18.126 | INF | "Select Active location dropdown"
+ 2024-07-18 13:27:20.845 | INF | "Verify only Active locations are displayed"
+ 2024-07-18 13:27:46.588 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 13:27:46.618 | INF | ==================================================================================
+ 2024-07-18 13:27:46.623 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 13:27:46.644 | INF | Selecting scenario "Verify Active Location in search page" to run
+ 2024-07-18 13:28:01.415 | INF | "user Login with ICE application"
+ 2024-07-18 13:28:03.255 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 13:28:05.329 | INF | "click Locations editor"
+ 2024-07-18 13:28:05.517 | INF | "Select required organization from Dropdown"
+ 2024-07-18 13:28:06.795 | INF | "Select Active location dropdown"
+ 2024-07-18 13:28:07.381 | ERR | Test step failed | Element cannot be interacted with via the keyboard because it is not displayed   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.SendKeys(String text)
+   at ICE_Desktop.Pages.UpdateLocationPage.verifyactiveloc() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\UpdateLocationPage.cs:line 252
+   at ICE_Desktop.Steps.UpdateLocationStepDefinitions.ThenVerifyOnlyActiveLocationsAreDisplayed() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\UpdateLocationStepDefinitions.cs:line 94
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-18 13:29:59.681 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 13:29:59.717 | INF | ==================================================================================
+ 2024-07-18 13:29:59.726 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 13:29:59.750 | INF | Selecting scenario "Verify Active Location in search page" to run
+ 2024-07-18 13:30:33.808 | INF | "user Login with ICE application"
+ 2024-07-18 13:30:35.769 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 13:30:37.482 | INF | "click Locations editor"
+ 2024-07-18 13:30:37.666 | INF | "Select required organization from Dropdown"
+ 2024-07-18 13:30:38.476 | INF | "Select Active location dropdown"
+ 2024-07-18 13:30:40.859 | INF | "Verify only Active locations are displayed"
+ 2024-07-18 13:31:04.027 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 13:31:04.052 | INF | ==================================================================================
+ 2024-07-18 13:31:04.058 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 13:31:04.077 | INF | Selecting scenario "Verify Active Location in search page" to run
+ 2024-07-18 13:31:18.856 | INF | "user Login with ICE application"
+ 2024-07-18 13:31:20.680 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 13:31:22.249 | INF | "click Locations editor"
+ 2024-07-18 13:31:22.495 | INF | "Select required organization from Dropdown"
+ 2024-07-18 13:31:23.866 | INF | "Select Active location dropdown"
+ 2024-07-18 13:31:27.046 | INF | "Verify only Active locations are displayed"
+ 2024-07-18 15:45:47.038 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 15:45:47.070 | INF | ==================================================================================
+ 2024-07-18 15:45:47.078 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 15:45:47.151 | INF | Selecting scenario "Verify mandatory check box are enabled" to run
+ 2024-07-18 15:46:04.544 | INF | "user Login with ICE application"
+ 2024-07-18 15:46:06.916 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 15:46:08.855 | INF | "click Locations editor"
+ 2024-07-18 15:46:09.058 | INF | "Select All organisations from Organisation Dropdown"
+ 2024-07-18 15:46:16.113 | INF | "Search ztest for location"
+ 2024-07-18 15:46:24.136 | INF | "Click edit button"
+ 2024-07-18 15:46:24.541 | INF | "Verify Is a GP practice Check box is enabled"
+ 2024-07-18 15:46:24.898 | INF | "verify Allow Interop to forward to New ICE checkbox is enabled"
+ 2024-07-18 15:46:28.651 | INF | "verify ActiveCheck box is enabled"
+ 2024-07-18 15:46:28.669 | INF | Selecting scenario "Verify mandatory check box are enabled" to run
+ 2024-07-18 15:46:42.672 | INF | "user Login with ICE application"
+ 2024-07-18 15:46:44.112 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 15:46:45.385 | INF | "click Locations editor"
+ 2024-07-18 15:46:45.590 | INF | "Select Anglia (AHSL1) from Organisation Dropdown"
+ 2024-07-18 15:46:52.817 | INF | "Search Johnson Ward for location"
+ 2024-07-18 15:47:00.042 | INF | "Click edit button"
+ 2024-07-18 15:47:01.066 | INF | "Verify Is a GP practice Check box is enabled"
+ 2024-07-18 15:47:02.244 | INF | "verify Allow Interop to forward to New ICE checkbox is enabled"
+ 2024-07-18 15:47:06.764 | INF | "verify ActiveCheck box is enabled"
+ 2024-07-18 16:02:52.331 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 16:02:52.356 | INF | ==================================================================================
+ 2024-07-18 16:02:52.362 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 16:02:52.397 | INF | Selecting scenario "Verify mandatory check box are enabled" to run
+ 2024-07-18 16:03:08.765 | INF | "user Login with ICE application"
+ 2024-07-18 16:03:10.718 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 16:03:12.483 | INF | "click Locations editor"
+ 2024-07-18 16:03:12.745 | INF | "Select All organisations from Organisation Dropdown"
+ 2024-07-18 16:03:19.763 | INF | "Search ztest for location"
+ 2024-07-18 16:03:19.847 | INF | Selecting scenario "Verify mandatory check box are enabled" to run
+ 2024-07-18 16:03:34.132 | INF | "user Login with ICE application"
+ 2024-07-18 16:03:35.827 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 16:03:37.311 | INF | "click Locations editor"
+ 2024-07-18 16:03:37.543 | INF | "Select Anglia (AHSL1) from Organisation Dropdown"
+ 2024-07-18 16:03:44.893 | INF | "Search Johnson Ward for location"
+ 2024-07-18 16:08:09.979 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 16:08:10.020 | INF | ==================================================================================
+ 2024-07-18 16:08:10.027 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 16:08:10.048 | INF | Selecting scenario "Verify mandatory check box are enabled" to run
+ 2024-07-18 16:08:25.330 | INF | "user Login with ICE application"
+ 2024-07-18 16:08:27.686 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 16:08:29.586 | INF | "click Locations editor"
+ 2024-07-18 16:08:29.788 | INF | "Select All organisations from Organisation Dropdown"
+ 2024-07-18 16:08:36.873 | INF | "Search ztest for location"
+ 2024-07-18 16:08:38.267 | INF | "Click Edit button"
+ 2024-07-18 16:08:38.657 | INF | "Verify Is a GP practice Check box is enabled"
+ 2024-07-18 16:08:39.000 | INF | "verify Allow Interop to forward to New ICE checkbox is enabled"
+ 2024-07-18 16:08:43.414 | INF | "verify ActiveCheck box is enabled"
+ 2024-07-18 16:08:43.435 | INF | Selecting scenario "Verify mandatory check box are enabled" to run
+ 2024-07-18 16:08:57.419 | INF | "user Login with ICE application"
+ 2024-07-18 16:08:59.062 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 16:09:00.706 | INF | "click Locations editor"
+ 2024-07-18 16:09:00.863 | INF | "Select Anglia (AHSL1) from Organisation Dropdown"
+ 2024-07-18 16:09:08.704 | INF | "Search Johnson Ward for location"
+ 2024-07-18 16:09:10.897 | INF | "Click Edit button"
+ 2024-07-18 16:09:11.423 | INF | "Verify Is a GP practice Check box is enabled"
+ 2024-07-18 16:09:12.012 | INF | "verify Allow Interop to forward to New ICE checkbox is enabled"
+ 2024-07-18 16:09:17.099 | INF | "verify ActiveCheck box is enabled"
+ 2024-07-18 16:14:32.788 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 16:14:32.816 | INF | ==================================================================================
+ 2024-07-18 16:14:32.820 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 16:14:32.844 | INF | Selecting scenario "Verify mandatory check box are enabled" to run
+ 2024-07-18 16:14:46.893 | INF | "user Login with ICE application"
+ 2024-07-18 16:14:48.746 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 16:14:50.153 | INF | "click Locations editor"
+ 2024-07-18 16:14:50.277 | INF | "Select All organisations from Organisation Dropdown"
+ 2024-07-18 16:14:56.888 | INF | "Search ztest for location"
+ 2024-07-18 16:14:58.037 | INF | "Click Edit button"
+ 2024-07-18 16:15:03.683 | ERR | Test step failed | Error from JavaScript: 'loc' is undefined   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)
+   at OpenQA.Selenium.WebDriver.ExecuteScript(String script, Object[] args)
+   at ICE_Desktop.Pages.UpdateLocationPage.orglocation(String loc) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\UpdateLocationPage.cs:line 119
+   at ICE_Desktop.Steps.UpdateLocationStepDefinitions.WhenSelectMainOrSubAllOrganisationsFromDropdown(String loc) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\UpdateLocationStepDefinitions.cs:line 50
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-18 16:15:03.891 | INF | Selecting scenario "Verify mandatory check box are enabled" to run
+ 2024-07-18 16:15:17.920 | INF | "user Login with ICE application"
+ 2024-07-18 16:15:19.781 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 16:15:20.629 | INF | "click Locations editor"
+ 2024-07-18 16:15:50.839 | ERR | Test step failed | Unable to find element with xpath == //select[@id='filterByOrganisation']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at ICE_Desktop.Pages.UpdateLocationPage.Locationorg(String name1) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\UpdateLocationPage.cs:line 54
+   at ICE_Desktop.Steps.UpdateLocationStepDefinitions.WhenSelectAllOrganisationsFromOrganisationDropdown(String name1) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\UpdateLocationStepDefinitions.cs:line 32
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-18 16:20:05.260 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 16:20:05.292 | INF | ==================================================================================
+ 2024-07-18 16:20:05.297 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 16:20:05.315 | INF | Selecting scenario "Verify mandatory check box are enabled" to run
+ 2024-07-18 16:20:19.148 | INF | "user Login with ICE application"
+ 2024-07-18 16:20:21.269 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 16:20:23.119 | INF | "click Locations editor"
+ 2024-07-18 16:20:23.349 | INF | "Select All organisations from Organisation Dropdown"
+ 2024-07-18 16:20:30.453 | INF | "Search ztest for location"
+ 2024-07-18 16:20:31.847 | INF | "Click Edit button"
+ 2024-07-18 16:20:37.383 | ERR | Test step failed | Error from JavaScript: 'loc' is undefined   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)
+   at OpenQA.Selenium.WebDriver.ExecuteScript(String script, Object[] args)
+   at ICE_Desktop.Pages.UpdateLocationPage.orglocation(String loc) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\UpdateLocationPage.cs:line 119
+   at ICE_Desktop.Steps.UpdateLocationStepDefinitions.WhenSelectMainOrSubAllOrganisationsFromDropdown(String loc) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\UpdateLocationStepDefinitions.cs:line 50
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-18 16:20:37.590 | INF | Selecting scenario "Verify mandatory check box are enabled" to run
+ 2024-07-18 16:20:51.924 | INF | "user Login with ICE application"
+ 2024-07-18 16:20:53.708 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 16:20:55.503 | INF | "click Locations editor"
+ 2024-07-18 16:20:55.707 | INF | "Select Anglia (AHSL1) from Organisation Dropdown"
+ 2024-07-18 16:21:00.740 | ERR | Test step failed | Currently focused window has been closed.   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at ICE_Desktop.Pages.UpdateLocationPage.searchlocation(String name) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\UpdateLocationPage.cs:line 92
+   at ICE_Desktop.Steps.UpdateLocationStepDefinitions.WhenSearchZtestForLocation(String name) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\UpdateLocationStepDefinitions.cs:line 38
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-18 16:23:41.812 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 16:23:41.843 | INF | ==================================================================================
+ 2024-07-18 16:23:41.847 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 16:23:41.869 | INF | Selecting scenario "Verify mandatory check box are enabled" to run
+ 2024-07-18 16:23:56.577 | INF | "user Login with ICE application"
+ 2024-07-18 16:23:58.332 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 16:23:59.806 | INF | "click Locations editor"
+ 2024-07-18 16:24:00.008 | INF | "Select All organisations from Organisation Dropdown"
+ 2024-07-18 16:24:07.160 | INF | "Search ztest for location"
+ 2024-07-18 16:24:08.527 | INF | "Click Edit button"
+ 2024-07-18 16:24:14.219 | ERR | Test step failed | No alert is active   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.TargetLocator.Alert()
+   at ICE_Desktop.Pages.UpdateLocationPage.orglocation(String loc) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\UpdateLocationPage.cs:line 144
+   at ICE_Desktop.Steps.UpdateLocationStepDefinitions.WhenSelectMainOrSubAllOrganisationsFromDropdown(String loc) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\UpdateLocationStepDefinitions.cs:line 50
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-18 16:24:14.423 | INF | Selecting scenario "Verify mandatory check box are enabled" to run
+ 2024-07-18 16:24:51.563 | ERR | Test step failed | Unable to find element with xpath == //select[@id='selUserLocationIndex']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at BDD_AutomationTests.Pages.HomePage.HomePageDisplayed() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\HomePage.cs:line 45
+   at BDD_AutomationTests.Behavior.ExecuteLoginBehavior.Perform1() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Behavior\ExecuteLoginBehavior.cs:line 27
+   at ICE_Desktop.Steps.UpdateClinicianStepDefinitions.GivenUserLoginWithICEApplication() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\UpdateClinicianStepDefinitions.cs:line 31
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-18 16:35:06.363 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 16:35:06.395 | INF | ==================================================================================
+ 2024-07-18 16:35:06.401 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 16:35:06.420 | INF | Selecting scenario "Verify mandatory check box are enabled" to run
+ 2024-07-18 16:35:22.062 | INF | "user Login with ICE application"
+ 2024-07-18 16:35:23.959 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 16:35:25.588 | INF | "click Locations editor"
+ 2024-07-18 16:35:25.838 | INF | "Select All organisations from Organisation Dropdown"
+ 2024-07-18 16:35:32.793 | INF | "Search ztest for location"
+ 2024-07-18 16:35:34.083 | INF | "Click Edit button"
+ 2024-07-18 16:35:39.773 | ERR | Test step failed | Error from JavaScript: 'console' is undefined   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)
+   at OpenQA.Selenium.WebDriver.ExecuteScript(String script, Object[] args)
+   at ICE_Desktop.Pages.UpdateLocationPage.orglocation(String loc) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\UpdateLocationPage.cs:line 119
+   at ICE_Desktop.Steps.UpdateLocationStepDefinitions.WhenSelectMainOrSubAllOrganisationsFromDropdown(String loc) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\UpdateLocationStepDefinitions.cs:line 50
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-18 16:35:39.996 | INF | Selecting scenario "Verify mandatory check box are enabled" to run
+ 2024-07-18 16:35:54.812 | INF | "user Login with ICE application"
+ 2024-07-18 16:35:56.685 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 16:35:58.197 | INF | "click Locations editor"
+ 2024-07-18 16:35:58.416 | INF | "Select Anglia (AHSL1) from Organisation Dropdown"
+ 2024-07-18 16:36:05.415 | INF | "Search Johnson Ward for location"
+ 2024-07-18 16:36:06.791 | INF | "Click Edit button"
+ 2024-07-18 16:36:11.824 | ERR | Test step failed | Currently focused window has been closed.   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at ICE_Desktop.Pages.UpdateLocationPage.orglocation(String loc) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\UpdateLocationPage.cs:line 106
+   at ICE_Desktop.Steps.UpdateLocationStepDefinitions.WhenSelectMainOrSubAllOrganisationsFromDropdown(String loc) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\UpdateLocationStepDefinitions.cs:line 50
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-18 16:40:15.633 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 16:40:15.656 | INF | ==================================================================================
+ 2024-07-18 16:40:15.664 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 16:40:15.696 | INF | Selecting scenario "Verify mandatory check box are enabled" to run
+ 2024-07-18 16:40:30.677 | INF | "user Login with ICE application"
+ 2024-07-18 16:40:32.559 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 16:40:34.488 | INF | "click Locations editor"
+ 2024-07-18 16:40:34.720 | INF | "Select All organisations from Organisation Dropdown"
+ 2024-07-18 16:40:41.792 | INF | "Search ztest for location"
+ 2024-07-18 16:40:42.985 | INF | "Click Edit button"
+ 2024-07-18 16:40:48.701 | INF | "select main or sub All organisations from dropdown"
+ 2024-07-18 16:40:50.057 | ERR | Test step failed | Modal dialog present with text: Selecting option: All organisations   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass7_0.<ElementIsVisible>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDD_AutomationTests.Behavior.Baseclass.WaitForElementToBeVisible(IWebDriver driver, By locator, Int32 timeoutInSeconds) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Behavior\Baseclass.cs:line 153
+   at ICE_Desktop.Pages.UpdateLocationPage.GP() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\UpdateLocationPage.cs:line 150
+   at ICE_Desktop.Steps.UpdateLocationStepDefinitions.ThenVerifyIsAGPPracticeCheckBoxIsEnabled() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\UpdateLocationStepDefinitions.cs:line 64
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-18 16:40:50.258 | INF | Selecting scenario "Verify mandatory check box are enabled" to run
+ 2024-07-18 16:41:04.246 | INF | "user Login with ICE application"
+ 2024-07-18 16:41:06.021 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 16:41:07.567 | INF | "click Locations editor"
+ 2024-07-18 16:41:07.767 | INF | "Select Anglia (AHSL1) from Organisation Dropdown"
+ 2024-07-18 16:41:15.463 | INF | "Search Johnson Ward for location"
+ 2024-07-18 16:41:17.475 | INF | "Click Edit button"
+ 2024-07-18 16:41:22.945 | INF | "select main or sub Anglia (AHSL1) from dropdown"
+ 2024-07-18 16:41:23.414 | INF | "Verify Is a GP practice Check box is enabled"
+ 2024-07-18 16:41:23.865 | INF | "verify Allow Interop to forward to New ICE checkbox is enabled"
+ 2024-07-18 16:41:28.756 | INF | "verify ActiveCheck box is enabled"
+ 2024-07-18 16:43:28.205 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 16:43:28.231 | INF | ==================================================================================
+ 2024-07-18 16:43:28.236 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 16:43:28.253 | INF | Selecting scenario "Verify Active Location in search page" to run
+ 2024-07-18 16:43:44.628 | INF | "user Login with ICE application"
+ 2024-07-18 16:43:46.450 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 16:43:48.016 | INF | "click Locations editor"
+ 2024-07-18 16:43:48.283 | INF | "Select All organisations from Organisation Dropdown"
+ 2024-07-18 16:43:49.605 | INF | "Select Active location dropdown"
+ 2024-07-18 16:43:52.579 | INF | "Verify only Active locations are displayed"
+ 2024-07-18 16:43:52.612 | INF | Selecting scenario "Verify Location room is active" to run
+ 2024-07-18 16:44:06.408 | INF | "user Login with ICE application"
+ 2024-07-18 16:44:14.430 | ERR | Test step failed | An unknown exception was encountered sending an HTTP request to the remote WebDriver server for URL http://localhost:60114/session/71bec27a-9445-4e3f-a737-9b90cc34214d/element/90bea8d4-56b9-4d92-86b2-e1c0947aca8a/click. The exception message was: An error occurred while sending the request.   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at ICE_Desktop.Pages.Updateclinicianpage.DesktopConfig() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\Updateclinicianpage.cs:line 43
+   at ICE_Desktop.Steps.UpdateClinicianStepDefinitions.WhenNavigateToDesktopConfiguration() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\UpdateClinicianStepDefinitions.cs:line 38
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-18 16:44:23.808 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 16:44:23.832 | INF | ==================================================================================
+ 2024-07-18 16:44:23.837 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 16:44:23.855 | INF | Selecting scenario "Verify mandatory check box are enabled" to run
+ 2024-07-18 16:44:38.370 | INF | "user Login with ICE application"
+ 2024-07-18 16:44:40.175 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 16:44:41.983 | INF | "click Locations editor"
+ 2024-07-18 16:44:42.188 | INF | "Select All organisations from Organisation Dropdown"
+ 2024-07-18 16:44:49.241 | INF | "Search ztest for location"
+ 2024-07-18 16:44:50.688 | INF | "Click Edit button"
+ 2024-07-18 16:44:56.411 | INF | "select main or sub Anglia District Hospital (RGN42) from dropdown"
+ 2024-07-18 16:44:57.745 | ERR | Test step failed | Modal dialog present with text: Selecting option: Anglia District Hospital (RGN42)   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass7_0.<ElementIsVisible>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDD_AutomationTests.Behavior.Baseclass.WaitForElementToBeVisible(IWebDriver driver, By locator, Int32 timeoutInSeconds) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Behavior\Baseclass.cs:line 153
+   at ICE_Desktop.Pages.UpdateLocationPage.GP() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\UpdateLocationPage.cs:line 150
+   at ICE_Desktop.Steps.UpdateLocationStepDefinitions.ThenVerifyIsAGPPracticeCheckBoxIsEnabled() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\UpdateLocationStepDefinitions.cs:line 64
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-18 16:44:57.948 | INF | Selecting scenario "Verify mandatory check box are enabled" to run
+ 2024-07-18 16:45:12.472 | INF | "user Login with ICE application"
+ 2024-07-18 16:45:14.646 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 16:45:16.371 | INF | "click Locations editor"
+ 2024-07-18 16:45:16.573 | INF | "Select Anglia (AHSL1) from Organisation Dropdown"
+ 2024-07-18 16:45:23.906 | INF | "Search Johnson Ward for location"
+ 2024-07-18 16:45:25.066 | INF | "Click Edit button"
+ 2024-07-18 16:45:30.541 | INF | "select main or sub Anglia (AHSL1) from dropdown"
+ 2024-07-18 16:45:30.944 | INF | "Verify Is a GP practice Check box is enabled"
+ 2024-07-18 16:45:31.380 | INF | "verify Allow Interop to forward to New ICE checkbox is enabled"
+ 2024-07-18 16:45:35.801 | INF | "verify ActiveCheck box is enabled"
+ 2024-07-18 16:47:24.240 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 16:47:24.264 | INF | ==================================================================================
+ 2024-07-18 16:47:24.269 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 16:47:24.287 | INF | Selecting scenario "Verify mandatory check box are enabled" to run
+ 2024-07-18 16:47:40.718 | INF | "user Login with ICE application"
+ 2024-07-18 16:47:42.841 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 16:47:44.662 | INF | "click Locations editor"
+ 2024-07-18 16:47:44.894 | INF | "Select All organisations from Organisation Dropdown"
+ 2024-07-18 16:47:51.968 | INF | "Search ztest for location"
+ 2024-07-18 16:47:53.284 | INF | "Click Edit button"
+ 2024-07-18 16:47:58.923 | INF | "select main or sub Anglia District Hospital (RGN42) from dropdown"
+ 2024-07-18 16:48:00.275 | ERR | Test step failed | Modal dialog present with text: Selecting option: Anglia District Hospital (RGN42)   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass7_0.<ElementIsVisible>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDD_AutomationTests.Behavior.Baseclass.WaitForElementToBeVisible(IWebDriver driver, By locator, Int32 timeoutInSeconds) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Behavior\Baseclass.cs:line 153
+   at ICE_Desktop.Pages.UpdateLocationPage.GP() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\UpdateLocationPage.cs:line 150
+   at ICE_Desktop.Steps.UpdateLocationStepDefinitions.ThenVerifyIsAGPPracticeCheckBoxIsEnabled() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\UpdateLocationStepDefinitions.cs:line 64
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-18 16:48:00.483 | INF | Selecting scenario "Verify mandatory check box are enabled" to run
+ 2024-07-18 16:48:14.143 | INF | "user Login with ICE application"
+ 2024-07-18 16:48:15.848 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 16:48:17.614 | INF | "click Locations editor"
+ 2024-07-18 16:48:17.846 | INF | "Select All organisations from Organisation Dropdown"
+ 2024-07-18 16:48:24.873 | INF | "Search Johnson Ward for location"
+ 2024-07-18 16:48:26.661 | INF | "Click Edit button"
+ 2024-07-18 16:48:32.332 | INF | "select main or sub Anglia (AHSL1) from dropdown"
+ 2024-07-18 16:48:33.603 | ERR | Test step failed | Modal dialog present with text: Selecting option: Anglia (AHSL1)   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass7_0.<ElementIsVisible>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDD_AutomationTests.Behavior.Baseclass.WaitForElementToBeVisible(IWebDriver driver, By locator, Int32 timeoutInSeconds) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Behavior\Baseclass.cs:line 153
+   at ICE_Desktop.Pages.UpdateLocationPage.GP() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\UpdateLocationPage.cs:line 150
+   at ICE_Desktop.Steps.UpdateLocationStepDefinitions.ThenVerifyIsAGPPracticeCheckBoxIsEnabled() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\UpdateLocationStepDefinitions.cs:line 64
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-18 16:52:44.516 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 16:52:44.543 | INF | ==================================================================================
+ 2024-07-18 16:52:44.549 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 16:52:44.584 | INF | Selecting scenario "Verify mandatory check box are enabled" to run
+ 2024-07-18 16:52:59.941 | INF | "user Login with ICE application"
+ 2024-07-18 16:53:02.233 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 16:53:04.221 | INF | "click Locations editor"
+ 2024-07-18 16:53:04.440 | INF | "Select All organisations from Organisation Dropdown"
+ 2024-07-18 16:53:11.437 | INF | "Search ztest for location"
+ 2024-07-18 16:53:12.835 | INF | "Click Edit button"
+ 2024-07-18 16:53:18.440 | INF | "select main or sub Anglia District Hospital (RGN42) from dropdown"
+ 2024-07-18 16:53:19.803 | ERR | Test step failed | Modal dialog present with text: Option found: Anglia District Hospital (RGN42)   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass7_0.<ElementIsVisible>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDD_AutomationTests.Behavior.Baseclass.WaitForElementToBeVisible(IWebDriver driver, By locator, Int32 timeoutInSeconds) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Behavior\Baseclass.cs:line 153
+   at ICE_Desktop.Pages.UpdateLocationPage.GP() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\UpdateLocationPage.cs:line 150
+   at ICE_Desktop.Steps.UpdateLocationStepDefinitions.ThenVerifyIsAGPPracticeCheckBoxIsEnabled() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\UpdateLocationStepDefinitions.cs:line 64
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-18 16:53:19.976 | INF | Selecting scenario "Verify mandatory check box are enabled" to run
+ 2024-07-18 16:53:28.052 | ERR | Test step failed | An unknown exception was encountered sending an HTTP request to the remote WebDriver server for URL http://localhost:60781/session/eaf24f34-4a6f-4d63-ba73-7c9358b9ea9c/element/7ca87e40-861f-4e30-96a4-5dfea82402cb/value. The exception message was: An error occurred while sending the request.   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.SendKeys(String text)
+   at BDD_AutomationTests.Pages.LoginPage.login() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\LoginPage.cs:line 41
+   at BDD_AutomationTests.Behavior.ExecuteLoginBehavior.singlelogin.login() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Behavior\ExecuteLoginBehavior.cs:line 56
+   at ICE_Desktop.Steps.UpdateClinicianStepDefinitions.GivenUserLoginWithICEApplication() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\UpdateClinicianStepDefinitions.cs:line 30
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-18 16:54:44.934 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 16:54:44.967 | INF | ==================================================================================
+ 2024-07-18 16:54:44.973 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 16:54:44.998 | INF | Selecting scenario "Verify mandatory check box are enabled" to run
+ 2024-07-18 16:54:58.618 | INF | "user Login with ICE application"
+ 2024-07-18 16:55:00.328 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 16:55:01.867 | INF | "click Locations editor"
+ 2024-07-18 16:55:02.037 | INF | "Select All organisations from Organisation Dropdown"
+ 2024-07-18 16:55:09.149 | INF | "Search ztest for location"
+ 2024-07-18 16:55:10.596 | INF | "Click Edit button"
+ 2024-07-18 16:55:18.357 | INF | "select main or sub Anglia District Hospital (RGN42) from dropdown"
+ 2024-07-18 16:55:18.586 | ERR | Test step failed | Modal dialog present with text: You have selected Anglia District Hospital (RGN42)
+
+Please confirm that this is the correct organisation.   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass7_0.<ElementIsVisible>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDD_AutomationTests.Behavior.Baseclass.WaitForElementToBeVisible(IWebDriver driver, By locator, Int32 timeoutInSeconds) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Behavior\Baseclass.cs:line 153
+   at ICE_Desktop.Pages.UpdateLocationPage.GP() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\UpdateLocationPage.cs:line 152
+   at ICE_Desktop.Steps.UpdateLocationStepDefinitions.ThenVerifyIsAGPPracticeCheckBoxIsEnabled() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\UpdateLocationStepDefinitions.cs:line 64
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-18 16:55:18.785 | INF | Selecting scenario "Verify mandatory check box are enabled" to run
+ 2024-07-18 16:55:32.560 | INF | "user Login with ICE application"
+ 2024-07-18 16:55:33.853 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 16:56:14.001 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 16:56:14.025 | INF | ==================================================================================
+ 2024-07-18 16:56:14.029 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 16:56:14.052 | INF | Selecting scenario "Verify mandatory check box are enabled" to run
+ 2024-07-18 16:56:29.173 | INF | "user Login with ICE application"
+ 2024-07-18 16:56:31.156 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 16:56:33.008 | INF | "click Locations editor"
+ 2024-07-18 16:56:33.273 | INF | "Select All organisations from Organisation Dropdown"
+ 2024-07-18 16:56:40.458 | INF | "Search ztest for location"
+ 2024-07-18 16:56:41.891 | INF | "Click Edit button"
+ 2024-07-18 16:56:49.870 | INF | "select main or sub Anglia District Hospital (RGN42) from dropdown"
+ 2024-07-18 16:56:50.114 | ERR | Test step failed | Modal dialog present with text: You have selected Anglia District Hospital (RGN42)
+
+Please confirm that this is the correct organisation.   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass7_0.<ElementIsVisible>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDD_AutomationTests.Behavior.Baseclass.WaitForElementToBeVisible(IWebDriver driver, By locator, Int32 timeoutInSeconds) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Behavior\Baseclass.cs:line 153
+   at ICE_Desktop.Pages.UpdateLocationPage.GP() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\UpdateLocationPage.cs:line 152
+   at ICE_Desktop.Steps.UpdateLocationStepDefinitions.ThenVerifyIsAGPPracticeCheckBoxIsEnabled() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\UpdateLocationStepDefinitions.cs:line 64
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-18 16:58:38.780 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 16:58:38.806 | INF | ==================================================================================
+ 2024-07-18 16:58:38.811 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 16:58:38.830 | INF | Selecting scenario "Verify mandatory check box are enabled" to run
+ 2024-07-18 16:58:53.369 | INF | "user Login with ICE application"
+ 2024-07-18 16:58:54.993 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 16:58:56.770 | INF | "click Locations editor"
+ 2024-07-18 16:58:56.988 | INF | "Select All organisations from Organisation Dropdown"
+ 2024-07-18 16:59:04.326 | INF | "Search ztest for location"
+ 2024-07-18 16:59:05.617 | INF | "Click Edit button"
+ 2024-07-18 16:59:18.500 | INF | "select main or sub Anglia District Hospital (RGN42) from dropdown"
+ 2024-07-18 16:59:18.734 | ERR | Test step failed | Modal dialog present with text: You have selected Anglia District Hospital (RGN42)
+
+Please confirm that this is the correct organisation.   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass7_0.<ElementIsVisible>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDD_AutomationTests.Behavior.Baseclass.WaitForElementToBeVisible(IWebDriver driver, By locator, Int32 timeoutInSeconds) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Behavior\Baseclass.cs:line 153
+   at ICE_Desktop.Pages.UpdateLocationPage.GP() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\UpdateLocationPage.cs:line 153
+   at ICE_Desktop.Steps.UpdateLocationStepDefinitions.ThenVerifyIsAGPPracticeCheckBoxIsEnabled() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\UpdateLocationStepDefinitions.cs:line 64
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-18 16:59:59.211 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 16:59:59.233 | INF | ==================================================================================
+ 2024-07-18 16:59:59.238 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 16:59:59.256 | INF | Selecting scenario "Verify mandatory check box are enabled" to run
+ 2024-07-18 17:00:14.381 | INF | "user Login with ICE application"
+ 2024-07-18 17:00:16.391 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 17:00:18.106 | INF | "click Locations editor"
+ 2024-07-18 17:00:18.328 | INF | "Select All organisations from Organisation Dropdown"
+ 2024-07-18 17:00:25.438 | INF | "Search ztest for location"
+ 2024-07-18 17:00:26.918 | INF | "Click Edit button"
+ 2024-07-18 17:00:38.224 | INF | "select main or sub Anglia District Hospital (RGN42) from dropdown"
+ 2024-07-18 17:00:38.613 | INF | "Verify Is a GP practice Check box is enabled"
+ 2024-07-18 17:00:38.895 | INF | "verify Allow Interop to forward to New ICE checkbox is enabled"
+ 2024-07-18 17:00:42.970 | INF | "verify ActiveCheck box is enabled"
+ 2024-07-18 17:00:57.504 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 17:00:57.529 | INF | ==================================================================================
+ 2024-07-18 17:00:57.534 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 17:00:57.554 | INF | Selecting scenario "Verify mandatory check box are enabled" to run
+ 2024-07-18 17:01:12.664 | INF | "user Login with ICE application"
+ 2024-07-18 17:01:14.650 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 17:01:16.301 | INF | "click Locations editor"
+ 2024-07-18 17:01:16.533 | INF | "Select All organisations from Organisation Dropdown"
+ 2024-07-18 17:01:23.663 | INF | "Search ztest for location"
+ 2024-07-18 17:01:24.939 | INF | "Click Edit button"
+ 2024-07-18 17:01:30.412 | INF | "select main or sub Anglia District Hospital (RGN42) from dropdown"
+ 2024-07-18 17:01:30.824 | INF | "Verify Is a GP practice Check box is enabled"
+ 2024-07-18 17:01:31.119 | INF | "verify Allow Interop to forward to New ICE checkbox is enabled"
+ 2024-07-18 17:01:34.791 | INF | "verify ActiveCheck box is enabled"
+ 2024-07-18 17:02:05.113 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 17:02:05.138 | INF | ==================================================================================
+ 2024-07-18 17:02:05.144 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 17:02:05.162 | INF | Selecting scenario "Verify Active Location in search page" to run
+ 2024-07-18 17:02:20.366 | INF | "user Login with ICE application"
+ 2024-07-18 17:02:22.523 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 17:02:24.238 | INF | "click Locations editor"
+ 2024-07-18 17:02:24.441 | INF | "Select All organisations from Organisation Dropdown"
+ 2024-07-18 17:02:25.695 | INF | "Select Active location dropdown"
+ 2024-07-18 17:02:28.013 | INF | "Verify only Active locations are displayed"
+ 2024-07-18 17:02:28.037 | INF | Selecting scenario "Verify Location room is active" to run
+ 2024-07-18 17:02:42.274 | INF | "user Login with ICE application"
+ 2024-07-18 17:02:44.067 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 17:02:45.796 | INF | "click Locations editor"
+ 2024-07-18 17:02:46.048 | INF | "Select All organisations from Organisation Dropdown"
+ 2024-07-18 17:02:53.021 | INF | "Search ztest for location"
+ 2024-07-18 17:02:54.778 | INF | "Click Edit button"
+ 2024-07-18 17:02:56.274 | INF | "Click Add/update Rooms button"
+ 2024-07-18 17:02:57.552 | INF | "Click edit button on required room"
+ 2024-07-18 17:02:59.489 | INF | "Verify Location room is active"
+ 2024-07-18 17:02:59.494 | INF | Selecting scenario "Verify mandatory check box are enabled" to run
+ 2024-07-18 17:03:13.951 | INF | "user Login with ICE application"
+ 2024-07-18 17:03:15.930 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 17:03:17.714 | INF | "click Locations editor"
+ 2024-07-18 17:03:17.836 | INF | "Select All organisations from Organisation Dropdown"
+ 2024-07-18 17:03:25.013 | INF | "Search ztest for location"
+ 2024-07-18 17:03:26.196 | INF | "Click Edit button"
+ 2024-07-18 17:03:31.497 | INF | "select main or sub Anglia District Hospital (RGN42) from dropdown"
+ 2024-07-18 17:03:31.840 | INF | "Verify Is a GP practice Check box is enabled"
+ 2024-07-18 17:03:32.166 | INF | "verify Allow Interop to forward to New ICE checkbox is enabled"
+ 2024-07-18 17:03:36.602 | INF | "verify ActiveCheck box is enabled"
+ 2024-07-18 17:03:36.603 | INF | Selecting scenario "Verify mandatory check box are enabled" to run
+ 2024-07-18 17:03:50.890 | INF | "user Login with ICE application"
+ 2024-07-18 17:03:53.194 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 17:03:55.012 | INF | "click Locations editor"
+ 2024-07-18 17:03:55.246 | INF | "Select Anglia (AHSL1) from Organisation Dropdown"
+ 2024-07-18 17:04:02.269 | INF | "Search Johnson Ward for location"
+ 2024-07-18 17:04:32.338 | ERR | Test step failed | Unable to find element with xpath == //input[@name='dtaLocations$ctl03$ctl00']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at ICE_Desktop.Pages.UpdateLocationPage.editlocation() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\UpdateLocationPage.cs:line 99
+   at ICE_Desktop.Steps.UpdateLocationStepDefinitions.WhenClickEditButton() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\UpdateLocationStepDefinitions.cs:line 44
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-18 17:05:11.856 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 17:05:11.901 | INF | ==================================================================================
+ 2024-07-18 17:05:11.908 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 17:05:11.939 | INF | Selecting scenario "Verify mandatory check box are enabled" to run
+ 2024-07-18 17:05:27.735 | INF | "user Login with ICE application"
+ 2024-07-18 17:05:29.236 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 17:05:31.027 | INF | "click Locations editor"
+ 2024-07-18 17:05:31.261 | INF | "Select Anglia (AHSL1) from Organisation Dropdown"
+ 2024-07-18 17:05:38.305 | INF | "Search Johnson Ward for location"
+ 2024-07-18 17:05:39.752 | INF | "Click Edit button"
+ 2024-07-18 17:05:45.276 | INF | "select main or sub Anglia (AHSL1) from dropdown"
+ 2024-07-18 17:05:45.709 | INF | "Verify Is a GP practice Check box is enabled"
+ 2024-07-18 17:05:46.128 | INF | "verify Allow Interop to forward to New ICE checkbox is enabled"
+ 2024-07-18 17:05:50.787 | INF | "verify ActiveCheck box is enabled"
+ 2024-07-18 20:24:55.644 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 20:24:55.660 | INF | ==================================================================================
+ 2024-07-18 20:24:55.663 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 20:24:55.675 | INF | Selecting scenario "Verify Active Location in search page" to run
+ 2024-07-18 20:25:25.377 | INF | "user Login with ICE application"
+ 2024-07-18 20:25:26.521 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 20:25:27.559 | INF | "click Locations editor"
+ 2024-07-18 20:25:27.667 | INF | "Select All organisations from Organisation Dropdown"
+ 2024-07-18 20:25:27.899 | INF | "Select Active location dropdown"
+ 2024-07-18 20:25:28.475 | ERR | Test step failed | Element is not displayed   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at ICE_Desktop.Pages.UpdateLocationPage.verifyactiveloc() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\UpdateLocationPage.cs:line 257
+   at ICE_Desktop.Steps.UpdateLocationStepDefinitions.ThenVerifyOnlyActiveLocationsAreDisplayed() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\UpdateLocationStepDefinitions.cs:line 110
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-18 20:27:46.757 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 20:27:46.776 | INF | ==================================================================================
+ 2024-07-18 20:27:46.781 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-07-18 20:27:46.806 | INF | Selecting scenario "Login with invalid credentials" to run
+ 2024-07-18 20:27:52.313 | INF | "Login with credentials ice\sunquest and icedmin"
+ 2024-07-18 20:27:52.424 | INF | "Verify invalid credential message is displaying"
+ 2024-07-18 20:27:52.434 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-07-18 20:27:57.877 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-07-18 20:28:01.275 | INF | "Verify home page is dispalyed"
+ 2024-07-18 20:28:04.451 | INF | "Logout the user"
+ 2024-07-18 20:28:04.453 | INF | Selecting feature file "Update Clinician with location Map and other options" to run
+ 2024-07-18 20:28:04.454 | INF | Selecting scenario "Add location mapping" to run
+ 2024-07-18 20:41:32.500 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 20:41:32.516 | INF | ==================================================================================
+ 2024-07-18 20:41:32.520 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 20:41:32.533 | INF | Selecting scenario "Verify Active Location in search page" to run
+ 2024-07-18 20:42:49.729 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 20:42:49.747 | INF | ==================================================================================
+ 2024-07-18 20:42:49.750 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 20:42:49.764 | INF | Selecting scenario "Verify Active Location in search page" to run
+ 2024-07-18 20:47:06.317 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 20:47:06.333 | INF | ==================================================================================
+ 2024-07-18 20:47:06.339 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 20:47:06.354 | INF | Selecting scenario "Verify Active Location in search page" to run
+ 2024-07-18 20:47:16.083 | INF | "user Login with ICE application"
+ 2024-07-18 20:47:17.015 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 20:47:17.775 | INF | "click Locations editor"
+ 2024-07-18 20:47:17.899 | INF | "Select All organisations from Organisation Dropdown"
+ 2024-07-18 20:47:18.145 | INF | "Select Active location dropdown"
+ 2024-07-18 20:47:52.951 | ERR | Test step failed | Unable to find element with xpath == //input[@name='dtaLocations$ctl03$ctl00']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at ICE_Desktop.Pages.UpdateLocationPage.verifyactiveloc() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\UpdateLocationPage.cs:line 259
+   at ICE_Desktop.Steps.UpdateLocationStepDefinitions.ThenVerifyOnlyActiveLocationsAreDisplayed() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\UpdateLocationStepDefinitions.cs:line 110
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-18 21:09:30.573 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 21:09:30.597 | INF | ==================================================================================
+ 2024-07-18 21:09:30.602 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 21:09:30.622 | INF | Selecting scenario "Verify Active Location in search page" to run
+ 2024-07-18 21:09:46.110 | INF | "user Login with ICE application"
+ 2024-07-18 21:09:48.090 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 21:09:50.103 | INF | "click Locations editor"
+ 2024-07-18 21:09:50.355 | INF | "Select All organisations from Organisation Dropdown"
+ 2024-07-18 21:09:51.691 | INF | "Select Active location dropdown"
+ 2024-07-18 21:09:57.154 | INF | "Verify only Active locations are displayed"
+ 2024-07-18 22:23:39.892 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 22:23:39.920 | INF | ==================================================================================
+ 2024-07-18 22:23:39.927 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 22:23:39.946 | INF | Selecting scenario "Verify Active Location in search page" to run
+ 2024-07-18 22:24:02.527 | INF | "user Login with ICE application"
+ 2024-07-18 22:24:04.538 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 22:24:06.122 | INF | "click Locations editor"
+ 2024-07-18 22:24:06.295 | INF | "Select All organisations from Organisation Dropdown"
+ 2024-07-18 22:24:06.735 | ERR | Test step failed | Error executing JavaScript; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)
+   at OpenQA.Selenium.WebDriver.ExecuteScript(String script, Object[] args)
+   at ICE_Desktop.Pages.UpdateLocationPage.Activelocfilter() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\UpdateLocationPage.cs:line 250
+   at ICE_Desktop.Steps.UpdateLocationStepDefinitions.WhenSelectActiveLocationDropdown() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\UpdateLocationStepDefinitions.cs:line 104
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-18 22:24:32.574 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 22:24:32.604 | INF | ==================================================================================
+ 2024-07-18 22:24:32.609 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 22:24:32.628 | INF | Selecting scenario "Verify Active Location in search page" to run
+ 2024-07-18 22:24:47.096 | INF | "user Login with ICE application"
+ 2024-07-18 22:24:48.680 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 22:24:50.451 | INF | "click Locations editor"
+ 2024-07-18 22:24:50.682 | INF | "Select All organisations from Organisation Dropdown"
+ 2024-07-18 22:24:51.116 | INF | "Select Active location dropdown"
+ 2024-07-18 22:25:02.330 | ERR | Test step failed | Assert.IsTrue failed.    at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowAssertFailed(String assertionName, String message) in /_/src/TestFramework/TestFramework/Assertions/Assert.cs:line 60
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition, String message, Object[] parameters) in /_/src/TestFramework/TestFramework/Assertions/Assert.IsTrue.cs:line 97
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition) in /_/src/TestFramework/TestFramework/Assertions/Assert.IsTrue.cs:line 26
+   at ICE_Desktop.Steps.UpdateLocationStepDefinitions.ThenVerifyOnlyActiveLocationsAreDisplayed() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\UpdateLocationStepDefinitions.cs:line 112
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-18 22:25:54.189 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 22:25:54.216 | INF | ==================================================================================
+ 2024-07-18 22:25:54.222 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 22:25:54.251 | INF | Selecting scenario "Verify Active Location in search page" to run
+ 2024-07-18 22:26:08.555 | INF | "user Login with ICE application"
+ 2024-07-18 22:26:10.131 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 22:26:11.830 | INF | "click Locations editor"
+ 2024-07-18 22:26:12.003 | INF | "Select All organisations from Organisation Dropdown"
+ 2024-07-18 22:26:13.140 | INF | "Select Active location dropdown"
+ 2024-07-18 22:26:24.245 | INF | "Verify only Active locations are displayed"
+ 2024-07-18 22:30:16.818 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-18 22:30:16.845 | INF | ==================================================================================
+ 2024-07-18 22:30:16.849 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-18 22:30:16.866 | INF | Selecting scenario "Verify Active Location in search page" to run
+ 2024-07-18 22:30:33.772 | INF | "user Login with ICE application"
+ 2024-07-18 22:30:35.614 | INF | "Navigate to Desktop configuration"
+ 2024-07-18 22:30:37.499 | INF | "click Locations editor"
+ 2024-07-18 22:30:37.730 | INF | "Select All organisations from Organisation Dropdown"
+ 2024-07-18 22:30:39.059 | INF | "Select Active location dropdown"
+ 2024-07-18 22:30:49.194 | INF | "Verify only Active locations are displayed"
+ 

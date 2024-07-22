@@ -1,5 +1,7 @@
 ﻿using BDD_AutomationTests.Behavior;
 using Nest;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using System;
@@ -8,6 +10,10 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using static System.Net.Mime.MediaTypeNames;
+using System.Xml.Linq;
+using NUnit.Framework.Interfaces;
+using static Microsoft.AspNetCore.Hosting.Internal.HostingApplication;
 
 namespace ICE_Desktop.Pages
 {
@@ -36,6 +42,10 @@ namespace ICE_Desktop.Pages
         By _roomactive = By.XPath("//input[@id='chkRoomActive']");
         By _updateroom = By.XPath("//input[@id='btnRoomUpdate']");
         By _backtoloc = By.XPath("//input[@id='btnGoToPage2']");
+        By _activelocfilter = By.XPath("//select[@id='ddlFilter']");
+        By _verifyactiveloc = By.XPath("//*[@class='dataGrid']//tr[3]");
+
+
         public void Locationeditor()
         {
             IWebElement _frame_ = driver.FindElement(_frame_1);
@@ -45,7 +55,7 @@ namespace ICE_Desktop.Pages
             driver.SwitchTo().Frame(_frame_s);
             driver.FindElement(_Locationeditor).Click();
         }
-        public void Locationorg()
+        public void Locationorg(string name1)
         {
             IWebElement s1 = driver.FindElement(_locorg);
             IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
@@ -79,13 +89,13 @@ namespace ICE_Desktop.Pages
         ";
 
             // Execute the script to select the option by visible text
-            js.ExecuteScript(script, s1, "All organisations");
+            js.ExecuteScript(script, s1, name1);
         }
 
-        public void searchlocation()
+        public void searchlocation(string name)
         {
             Thread.Sleep(5000);
-            driver.FindElement(_locname).SendKeys("ztest");
+            driver.FindElement(_locname).SendKeys(name);
             driver.FindElement(_serch).Click();
         }
 
@@ -96,7 +106,7 @@ namespace ICE_Desktop.Pages
 
         }
 
-        public void orglocation()
+        public void orglocation(string loc)
         {
             Thread.Sleep(5000);
             IWebElement s2 = driver.FindElement(_orgloc);
@@ -108,37 +118,41 @@ namespace ICE_Desktop.Pages
             IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
             string selectedOption = (string)js.ExecuteScript("return arguments[0].options[arguments[0].selectedIndex].text;", s2);
 
-            // Check if the selected option is "Anglia (AHSL1)"
-            if (selectedOption != "Anglia (AHSL1)")
+            // Check if the selected option is the same as the provided location
+            if (selectedOption != loc)
             {
-                // Use JavaScript to select "Anglia (AHSL1)"
+                // Use JavaScript to select the provided location
                 js.ExecuteScript(@"
-                    var select = arguments[0];
-                    for (var i = 0; i < select.options.length; i++) {
-                        if (select.options[i].text === 'Anglia (AHSL1)') {
-                            select.selectedIndex = i;
-                            var event;
-                            if (typeof(Event) === 'function') {
-                                event = new Event('change', { bubbles: true });
-                            } else {
-                                if (document.createEvent) {
-                                    event = document.createEvent('HTMLEvents');
-                                    event.initEvent('change', true, false);
-                                } else if (document.createEventObject) { // IE < 9
-                                    event = document.createEventObject();
-                                    select.fireEvent('onchange', event);
-                                    return;
-                                }
-                            }
-                            select.dispatchEvent(event);
-                            break;
+            var select = arguments[0];
+            var loc = arguments[1];
+            
+            for (var i = 0; i < select.options.length; i++) {
+               
+                if (select.options[i].text === loc) {
+                    select.selectedIndex = i;
+                    
+                    var event;
+                    if (typeof(Event) === 'function') {
+                        event = new Event('change', { bubbles: true });
+                    } else {
+                        if (document.createEvent) {
+                            event = document.createEvent('HTMLEvents');
+                            event.initEvent('change', true, false);
+                        } else if (document.createEventObject) { // IE < 9
+                            event = document.createEventObject();
+                            select.fireEvent('onchange', event);
+                            return;
                         }
                     }
-                ", s2);
+                    select.dispatchEvent(event);
+                    break;
+                }
+            }
+        ", s2, loc);
+                Thread.Sleep(5000);
                 IAlert Ok = driver.SwitchTo().Alert();
                 Ok.Accept();
             }
-           
         }
         public void GP()
         {
@@ -200,6 +214,102 @@ namespace ICE_Desktop.Pages
             }
         }
 
+        public void Activelocfilter()
+        {
+            Thread.Sleep(4000);
+            IWebElement s3 = driver.FindElement(_activelocfilter);
+           
+            IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
+
+            string script = @"
+            var dropdown = arguments[0];
+            var text = arguments[1];
+            for (var i = 0; i < dropdown.options.length; i++) {
+                if (dropdown.options[i].text === text) {
+                    dropdown.selectedIndex = i;
+                    var event;
+                    if (typeof(Event) === 'function') {
+                        event = new Event('change', { bubbles: true });
+                    } else if (document.createEvent) {
+                        event = document.createEvent('Event');
+                        event.initEvent('change', true, true);
+                    } else if (document.createEventObject) { // IE-specific
+                        event = document.createEventObject();
+                        event.eventType = 'change';
+                    }
+                    if (event) {
+                        if (dropdown.dispatchEvent) {
+                            dropdown.dispatchEvent(event);
+                        } else if (dropdown.fireEvent) { // IE-specific
+                            dropdown.fireEvent('onchange', event);
+                        }
+                    }
+                    break;
+                }
+            }
+        ";
+            // Execute the script to select the option by visible text
+            js.ExecuteScript(script, s3, "Only active locations");
+            
+        }
+
+        public void searchlocations(string locat)
+        {
+
+            Thread.Sleep(5000);
+            driver.FindElement(_locname).SendKeys(locat);
+            
+            driver.FindElement(_serch).Click();
+                    
+        }
+        public bool VerifyActiveloc(string locat)
+        {
+           IWebElement loctext = driver.FindElement(_verifyactiveloc);
+            return loctext.Text.Contains(locat);
+        }
+        public void InActivelocfilter()
+        {
+            Thread.Sleep(4000);
+            IWebElement s3 = driver.FindElement(_activelocfilter);
+
+            IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
+
+            string script = @"
+            var dropdown = arguments[0];
+            var text = arguments[1];
+            for (var i = 0; i < dropdown.options.length; i++) {
+                if (dropdown.options[i].text === text) {
+                    dropdown.selectedIndex = i;
+                    var event;
+                    if (typeof(Event) === 'function') {
+                        event = new Event('change', { bubbles: true });
+                    } else if (document.createEvent) {
+                        event = document.createEvent('Event');
+                        event.initEvent('change', true, true);
+                    } else if (document.createEventObject) { // IE-specific
+                        event = document.createEventObject();
+                        event.eventType = 'change';
+                    }
+                    if (event) {
+                        if (dropdown.dispatchEvent) {
+                            dropdown.dispatchEvent(event);
+                        } else if (dropdown.fireEvent) { // IE-specific
+                            dropdown.fireEvent('onchange', event);
+                        }
+                    }
+                    break;
+                }
+            }
+        ";
+            // Execute the script to select the option by visible text
+            js.ExecuteScript(script, s3, "Only inactive locations");
+
+        }
+        public bool VerifyInActiveloc(string locat)
+        {
+            IWebElement loctext = driver.FindElement(_verifyactiveloc);
+            return loctext.Text.Contains(locat);
+        }
     }
 }
     

@@ -1,0 +1,42 @@
+2024-07-19 08:54:32.740 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-19 08:54:32.769 | INF | ==================================================================================
+ 2024-07-19 08:54:32.774 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-19 08:54:32.804 | INF | Selecting scenario "Verify Active Location in search page" to run
+ 2024-07-19 08:55:14.146 | INF | "user Login with ICE application"
+ 2024-07-19 08:55:16.049 | INF | "Navigate to Desktop configuration"
+ 2024-07-19 08:55:17.781 | INF | "click Locations editor"
+ 2024-07-19 08:55:17.969 | INF | "Select All organisations from Organisation Dropdown"
+ 2024-07-19 08:55:18.325 | INF | "Select Active location dropdown"
+ 2024-07-19 08:55:23.577 | INF | "Verify only Active locations are displayed"
+ 2024-07-19 08:56:21.502 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-19 08:56:21.533 | INF | ==================================================================================
+ 2024-07-19 08:56:21.541 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-19 08:56:21.576 | INF | Selecting scenario "Verify Active Location in search page" to run
+ 2024-07-19 08:56:37.074 | INF | "user Login with ICE application"
+ 2024-07-19 08:56:38.732 | INF | "Navigate to Desktop configuration"
+ 2024-07-19 08:56:40.779 | INF | "click Locations editor"
+ 2024-07-19 08:56:41.013 | INF | "Select All organisations from Organisation Dropdown"
+ 2024-07-19 08:56:42.322 | INF | "Select Active location dropdown"
+ 2024-07-19 08:56:48.061 | INF | "Verify only Active locations are displayed"
+ 2024-07-19 09:26:29.999 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-19 09:26:30.031 | INF | ==================================================================================
+ 2024-07-19 09:26:30.039 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-19 09:26:30.063 | INF | Selecting scenario "Verify Active Location in search page" to run
+ 2024-07-19 09:26:54.423 | INF | "user Login with ICE application"
+ 2024-07-19 09:26:56.119 | INF | "Navigate to Desktop configuration"
+ 2024-07-19 09:26:57.869 | INF | "click Locations editor"
+ 2024-07-19 09:26:58.133 | INF | "Select All organisations from Organisation Dropdown"
+ 2024-07-19 09:26:59.132 | INF | "Select Active location dropdown"
+ 2024-07-19 09:27:04.251 | INF | "Search for Inactive Jackson Ward"
+ 2024-07-19 09:27:34.838 | ERR | Test step failed | Unable to find element with xpath == //input[@name='dtaLocations$ctl03$ctl00']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at ICE_Desktop.Pages.UpdateLocationPage.verifyactiveloc() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\UpdateLocationPage.cs:line 265
+   at ICE_Desktop.Steps.UpdateLocationStepDefinitions.ThenVerifyOnlyActiveLocationsAreDisplayed() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\UpdateLocationStepDefinitions.cs:line 118
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 

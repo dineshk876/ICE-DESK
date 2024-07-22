@@ -143,7 +143,7 @@ namespace BDD_AutomationTests.Behavior
 
         public static void Dropdown(IWebElement element, string text)
         {
-            selectElement = new SelectElement(element);
+             selectElement = new SelectElement(element);
             selectElement.SelectByText(text);
         }
 
