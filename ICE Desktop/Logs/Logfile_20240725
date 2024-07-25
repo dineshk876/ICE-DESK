@@ -1,0 +1,640 @@
+2024-07-25 07:23:59.538 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 07:23:59.558 | INF | ==================================================================================
+ 2024-07-25 07:23:59.561 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 07:23:59.586 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 07:24:11.793 | INF | "user Login with ICE application"
+ 2024-07-25 07:24:12.661 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 07:24:15.163 | INF | "Select zuser from the list"
+ 2024-07-25 07:24:15.521 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 07:24:15.522 | INF | "Scroll down to specific module"
+ 2024-07-25 07:24:15.522 | INF | "Enable or disable the required options"
+ 2024-07-25 07:24:15.523 | INF | "Click on Save Changes button"
+ 2024-07-25 07:24:15.523 | INF | "User will able to see The user has been successfully updated."
+ 2024-07-25 07:27:39.898 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 07:27:39.916 | INF | ==================================================================================
+ 2024-07-25 07:27:39.920 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 07:27:39.932 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 07:27:48.931 | INF | "user Login with ICE application"
+ 2024-07-25 07:27:49.802 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 07:27:52.116 | INF | "Select zuser from the list"
+ 2024-07-25 07:27:52.458 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 07:27:52.533 | ERR | Test step failed | Object reference not set to an instance of an object.   at BDD_AutomationTests.Behavior.Baseclass.ScrollDown(IWebElement element) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Behavior\Baseclass.cs:line 124
+   at ICE_Desktop.Pages.EditUserpage.Scrolldown() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\EditUserpage.cs:line 57
+   at ICE_Desktop.Steps.EditUserStepDefinitions.WhenScrollDownToSpecificModule() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\EditUserStepDefinitions.cs.cs:line 43
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-25 07:29:28.017 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 07:29:28.035 | INF | ==================================================================================
+ 2024-07-25 07:29:28.038 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 07:29:28.051 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 07:29:37.186 | INF | "user Login with ICE application"
+ 2024-07-25 07:29:38.061 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 07:29:40.341 | INF | "Select zuser from the list"
+ 2024-07-25 07:29:40.683 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 07:29:40.810 | INF | "Scroll down to specific module"
+ 2024-07-25 07:29:40.810 | INF | "Enable or disable the required options"
+ 2024-07-25 07:29:40.811 | INF | "Click on Save Changes button"
+ 2024-07-25 07:29:40.811 | INF | "User will able to see The user has been successfully updated."
+ 2024-07-25 07:31:17.237 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 07:31:17.256 | INF | ==================================================================================
+ 2024-07-25 07:31:17.259 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 07:31:17.273 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 07:31:26.222 | INF | "user Login with ICE application"
+ 2024-07-25 07:31:27.087 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 07:31:29.371 | INF | "Select zuser from the list"
+ 2024-07-25 07:31:29.727 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 07:31:29.787 | ERR | Test step failed | Object reference not set to an instance of an object.   at BDD_AutomationTests.Behavior.Baseclass.ScrollDown(IWebElement element) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Behavior\Baseclass.cs:line 124
+   at ICE_Desktop.Pages.EditUserpage.Scrolldown() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\EditUserpage.cs:line 60
+   at ICE_Desktop.Steps.EditUserStepDefinitions.WhenScrollDownToSpecificModule() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\EditUserStepDefinitions.cs.cs:line 43
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-25 07:32:10.338 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 07:32:10.356 | INF | ==================================================================================
+ 2024-07-25 07:32:10.360 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 07:32:10.373 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 07:32:19.365 | INF | "user Login with ICE application"
+ 2024-07-25 07:32:20.239 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 07:32:22.530 | INF | "Select zuser from the list"
+ 2024-07-25 07:32:22.875 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 07:32:22.999 | INF | "Scroll down to specific module"
+ 2024-07-25 07:32:22.999 | INF | "Enable or disable the required options"
+ 2024-07-25 07:32:22.999 | INF | "Click on Save Changes button"
+ 2024-07-25 07:32:23.000 | INF | "User will able to see The user has been successfully updated."
+ 2024-07-25 07:33:06.482 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 07:33:06.503 | INF | ==================================================================================
+ 2024-07-25 07:33:06.507 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 07:33:06.522 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 07:33:15.705 | INF | "user Login with ICE application"
+ 2024-07-25 07:33:16.574 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 07:33:18.873 | INF | "Select zuser from the list"
+ 2024-07-25 07:33:19.246 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 07:33:19.372 | INF | "Scroll down to specific module"
+ 2024-07-25 07:33:19.373 | INF | "Enable or disable the required options"
+ 2024-07-25 07:33:19.374 | INF | "Click on Save Changes button"
+ 2024-07-25 07:33:19.375 | INF | "User will able to see The user has been successfully updated."
+ 2024-07-25 07:35:17.151 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 07:35:17.169 | INF | ==================================================================================
+ 2024-07-25 07:35:17.173 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 07:35:17.186 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 07:35:26.201 | INF | "user Login with ICE application"
+ 2024-07-25 07:35:27.085 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 07:35:29.459 | INF | "Select zuser from the list"
+ 2024-07-25 07:35:29.819 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 07:36:00.095 | ERR | Test step failed | Unable to find element with xpath == //div[@id='divTB']//following-sibling::td[13]; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at ICE_Desktop.Pages.EditUserpage.Scrolldown() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\EditUserpage.cs:line 57
+   at ICE_Desktop.Steps.EditUserStepDefinitions.WhenScrollDownToSpecificModule() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\EditUserStepDefinitions.cs.cs:line 43
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-25 07:48:11.093 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 07:48:11.110 | INF | ==================================================================================
+ 2024-07-25 07:48:11.114 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 07:48:11.127 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 07:48:20.457 | INF | "user Login with ICE application"
+ 2024-07-25 07:48:21.319 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 07:48:23.723 | INF | "Select zuser from the list"
+ 2024-07-25 07:48:24.066 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 07:48:24.188 | INF | "Scroll down to specific module"
+ 2024-07-25 07:48:24.189 | INF | "Enable or disable the required options"
+ 2024-07-25 07:48:24.189 | INF | "Click on Save Changes button"
+ 2024-07-25 07:48:24.190 | INF | "User will able to see The user has been successfully updated."
+ 2024-07-25 07:52:15.680 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 07:52:15.698 | INF | ==================================================================================
+ 2024-07-25 07:52:15.702 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 07:52:15.715 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 07:52:24.839 | INF | "user Login with ICE application"
+ 2024-07-25 07:52:25.707 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 07:52:28.113 | INF | "Select zuser from the list"
+ 2024-07-25 07:52:28.457 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 07:53:48.864 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 07:53:48.881 | INF | ==================================================================================
+ 2024-07-25 07:53:48.884 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 07:53:48.897 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 07:53:58.057 | INF | "user Login with ICE application"
+ 2024-07-25 07:53:58.954 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 07:54:01.391 | INF | "Select zuser from the list"
+ 2024-07-25 07:54:01.745 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 07:54:01.803 | ERR | Test step failed | Unable to locate an element with the xpath expression //*[@id='divTB']//following-sibiling::td[text()='Reporting'] because of the following error:
+[object Error]; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at ICE_Desktop.Pages.EditUserpage.Scrolldown() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\EditUserpage.cs:line 57
+   at ICE_Desktop.Steps.EditUserStepDefinitions.WhenScrollDownToSpecificModule() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\EditUserStepDefinitions.cs.cs:line 43
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-25 07:55:30.225 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 07:55:30.242 | INF | ==================================================================================
+ 2024-07-25 07:55:30.245 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 07:55:30.258 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 07:55:39.543 | INF | "user Login with ICE application"
+ 2024-07-25 07:55:40.428 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 07:55:42.793 | INF | "Select zuser from the list"
+ 2024-07-25 07:55:43.136 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 07:55:43.229 | INF | "Scroll down to specific module"
+ 2024-07-25 07:55:43.230 | INF | "Enable or disable the required options"
+ 2024-07-25 07:55:43.230 | INF | "Click on Save Changes button"
+ 2024-07-25 07:55:43.230 | INF | "User will able to see The user has been successfully updated."
+ 2024-07-25 07:56:28.031 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 07:56:28.048 | INF | ==================================================================================
+ 2024-07-25 07:56:28.052 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 07:56:28.064 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 07:56:37.198 | INF | "user Login with ICE application"
+ 2024-07-25 07:56:38.072 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 07:56:40.455 | INF | "Select zuser from the list"
+ 2024-07-25 07:56:40.802 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 07:56:40.909 | INF | "Scroll down to specific module"
+ 2024-07-25 07:56:40.909 | INF | "Enable or disable the required options"
+ 2024-07-25 07:56:40.910 | INF | "Click on Save Changes button"
+ 2024-07-25 07:56:40.910 | INF | "User will able to see The user has been successfully updated."
+ 2024-07-25 07:57:59.593 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 07:57:59.610 | INF | ==================================================================================
+ 2024-07-25 07:57:59.613 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 07:57:59.626 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 07:58:08.887 | INF | "user Login with ICE application"
+ 2024-07-25 07:58:09.783 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 07:58:12.188 | INF | "Select zuser from the list"
+ 2024-07-25 07:58:12.534 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 07:58:12.659 | INF | "Scroll down to specific module"
+ 2024-07-25 07:58:12.660 | INF | "Enable or disable the required options"
+ 2024-07-25 07:58:12.660 | INF | "Click on Save Changes button"
+ 2024-07-25 07:58:12.661 | INF | "User will able to see The user has been successfully updated."
+ 2024-07-25 08:20:49.013 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 08:20:49.031 | INF | ==================================================================================
+ 2024-07-25 08:20:49.035 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 08:20:49.051 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 08:20:58.176 | INF | "user Login with ICE application"
+ 2024-07-25 08:20:59.039 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 08:21:01.396 | INF | "Select zuser from the list"
+ 2024-07-25 08:21:01.738 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 08:21:01.847 | INF | "Scroll down to specific module"
+ 2024-07-25 08:21:01.902 | ERR | Test step failed | Unable to locate an element with the xpath expression 
+//table[@id='EDMAC]//child::td[@toolbarItemIndex='5'] because of the following error:
+[object Error]; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at ICE_Desktop.Pages.EditUserpage.options() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\EditUserpage.cs:line 65
+   at ICE_Desktop.Steps.EditUserStepDefinitions.WhenEnableOrDisableTheRequiredOptions() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\EditUserStepDefinitions.cs.cs:line 49
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-25 08:22:36.271 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 08:22:36.289 | INF | ==================================================================================
+ 2024-07-25 08:22:36.292 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 08:22:36.305 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 08:22:45.353 | INF | "user Login with ICE application"
+ 2024-07-25 08:22:46.237 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 08:22:48.673 | INF | "Select zuser from the list"
+ 2024-07-25 08:22:49.033 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 08:22:49.156 | INF | "Scroll down to specific module"
+ 2024-07-25 08:22:49.209 | ERR | Test step failed | Unable to locate an element with the xpath expression //table[@id='EDMAC]//child::span[@toolbarItemIndex='5'] because of the following error:
+[object Error]; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at ICE_Desktop.Pages.EditUserpage.options() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\EditUserpage.cs:line 65
+   at ICE_Desktop.Steps.EditUserStepDefinitions.WhenEnableOrDisableTheRequiredOptions() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\EditUserStepDefinitions.cs.cs:line 49
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-25 08:23:20.384 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 08:23:20.400 | INF | ==================================================================================
+ 2024-07-25 08:23:20.404 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 08:23:20.416 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 08:23:29.824 | INF | "user Login with ICE application"
+ 2024-07-25 08:23:30.701 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 08:23:33.117 | INF | "Select zuser from the list"
+ 2024-07-25 08:23:33.473 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 08:23:33.583 | INF | "Scroll down to specific module"
+ 2024-07-25 08:23:33.645 | ERR | Test step failed | Unable to locate an element with the xpath expression //*[@id='EDMAC]//child::span[@toolbarItemIndex='5'] because of the following error:
+[object Error]; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at ICE_Desktop.Pages.EditUserpage.options() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\EditUserpage.cs:line 65
+   at ICE_Desktop.Steps.EditUserStepDefinitions.WhenEnableOrDisableTheRequiredOptions() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\EditUserStepDefinitions.cs.cs:line 49
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-25 08:24:21.279 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 08:24:21.296 | INF | ==================================================================================
+ 2024-07-25 08:24:21.299 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 08:24:21.312 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 08:24:32.352 | INF | "user Login with ICE application"
+ 2024-07-25 08:24:33.242 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 08:24:35.578 | INF | "Select zuser from the list"
+ 2024-07-25 08:24:35.935 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 08:24:36.075 | INF | "Scroll down to specific module"
+ 2024-07-25 08:24:36.617 | INF | "Enable or disable the required options"
+ 2024-07-25 08:24:36.617 | INF | "Click on Save Changes button"
+ 2024-07-25 08:24:36.618 | INF | "User will able to see The user has been successfully updated."
+ 2024-07-25 09:00:21.489 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 09:00:21.524 | INF | ==================================================================================
+ 2024-07-25 09:00:21.529 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 09:00:21.554 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 09:00:37.437 | INF | "user Login with ICE application"
+ 2024-07-25 09:00:39.377 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 09:00:43.513 | INF | "Select zuser from the list"
+ 2024-07-25 09:00:44.121 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 09:00:44.358 | INF | "Scroll down to specific module"
+ 2024-07-25 09:00:52.133 | INF | "Enable or disable the required options"
+ 2024-07-25 09:00:54.099 | INF | "Click on Save Changes button"
+ 2024-07-25 09:00:54.101 | INF | "User will able to see The user has been successfully updated."
+ 2024-07-25 09:06:07.226 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 09:06:07.250 | INF | ==================================================================================
+ 2024-07-25 09:06:07.255 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 09:06:07.274 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 09:06:21.260 | INF | "user Login with ICE application"
+ 2024-07-25 09:06:23.319 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 09:06:27.589 | INF | "Select zuser from the list"
+ 2024-07-25 09:06:28.412 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 09:06:28.663 | INF | "Scroll down to specific module"
+ 2024-07-25 09:06:36.143 | INF | "Enable or disable the required options"
+ 2024-07-25 09:06:37.988 | INF | "Click on Save Changes button"
+ 2024-07-25 09:06:38.247 | ERR | Test step failed | Assert.IsTrue failed.    at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowAssertFailed(String assertionName, String message) in /_/src/TestFramework/TestFramework/Assertions/Assert.cs:line 60
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition, String message, Object[] parameters) in /_/src/TestFramework/TestFramework/Assertions/Assert.IsTrue.cs:line 97
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition) in /_/src/TestFramework/TestFramework/Assertions/Assert.IsTrue.cs:line 26
+   at ICE_Desktop.Steps.EditUserStepDefinitions.ThenUserWillAbleToTheUserHasBeenSuccessfullyUpdated(String message) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\EditUserStepDefinitions.cs:line 62
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-25 09:08:41.219 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 09:08:41.249 | INF | ==================================================================================
+ 2024-07-25 09:08:41.256 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 09:08:41.277 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 09:08:55.497 | INF | "user Login with ICE application"
+ 2024-07-25 09:08:57.086 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 09:09:01.379 | INF | "Select zuser from the list"
+ 2024-07-25 09:09:02.230 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 09:09:02.494 | INF | "Scroll down to specific module"
+ 2024-07-25 09:09:10.398 | INF | "Enable or disable the required options"
+ 2024-07-25 09:09:12.229 | INF | "Click on Save Changes button"
+ 2024-07-25 09:09:12.475 | ERR | Test step failed | Assert.IsTrue failed.    at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowAssertFailed(String assertionName, String message) in /_/src/TestFramework/TestFramework/Assertions/Assert.cs:line 60
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition, String message, Object[] parameters) in /_/src/TestFramework/TestFramework/Assertions/Assert.IsTrue.cs:line 97
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition) in /_/src/TestFramework/TestFramework/Assertions/Assert.IsTrue.cs:line 26
+   at ICE_Desktop.Steps.EditUserStepDefinitions.ThenUserWillAbleToTheUserHasBeenSuccessfullyUpdated(String message) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\EditUserStepDefinitions.cs:line 62
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-25 09:13:38.086 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 09:13:38.130 | INF | ==================================================================================
+ 2024-07-25 09:13:38.135 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 09:13:38.152 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 09:13:53.267 | INF | "user Login with ICE application"
+ 2024-07-25 09:13:55.296 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 09:14:00.009 | INF | "Select zuser from the list"
+ 2024-07-25 09:14:00.958 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 09:14:01.174 | INF | "Scroll down to specific module"
+ 2024-07-25 09:14:08.530 | INF | "Enable or disable the required options"
+ 2024-07-25 09:14:10.346 | INF | "Click on Save Changes button"
+ 2024-07-25 09:14:10.528 | ERR | Test step failed | Assert.IsTrue failed.    at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowAssertFailed(String assertionName, String message) in /_/src/TestFramework/TestFramework/Assertions/Assert.cs:line 60
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition, String message, Object[] parameters) in /_/src/TestFramework/TestFramework/Assertions/Assert.IsTrue.cs:line 97
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition) in /_/src/TestFramework/TestFramework/Assertions/Assert.IsTrue.cs:line 26
+   at ICE_Desktop.Steps.EditUserStepDefinitions.ThenUserWillAbleToTheUserHasBeenSuccessfullyUpdated(String message) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\EditUserStepDefinitions.cs:line 62
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-25 09:16:45.747 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 09:16:45.774 | INF | ==================================================================================
+ 2024-07-25 09:16:45.779 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-25 09:16:45.796 | INF | Selecting scenario "Verify Location room is active" to run
+ 2024-07-25 09:17:00.496 | INF | "user Login with ICE application"
+ 2024-07-25 09:17:02.455 | INF | "Navigate to Desktop configuration"
+ 2024-07-25 09:17:04.819 | INF | "click Locations editor"
+ 2024-07-25 09:17:05.041 | INF | "Select All organisations from Organisation Dropdown"
+ 2024-07-25 09:17:11.850 | INF | "Search ztest for location"
+ 2024-07-25 09:17:13.314 | INF | "Click Edit button"
+ 2024-07-25 09:17:14.403 | INF | "Click Add/update Rooms button"
+ 2024-07-25 09:17:15.557 | INF | "Click edit button on required room"
+ 2024-07-25 09:17:17.308 | INF | "Verify Location room is active"
+ 2024-07-25 09:17:42.636 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 09:17:42.660 | INF | ==================================================================================
+ 2024-07-25 09:17:42.666 | INF | Selecting feature file "UpdateLocation using organization and verify required options are enabled" to run
+ 2024-07-25 09:17:42.688 | INF | Selecting scenario "Verify InActive Location in search page" to run
+ 2024-07-25 09:17:57.720 | INF | "user Login with ICE application"
+ 2024-07-25 09:17:59.668 | INF | "Navigate to Desktop configuration"
+ 2024-07-25 09:18:01.227 | INF | "click Locations editor"
+ 2024-07-25 09:18:01.428 | INF | "Select All organisations from Organisation Dropdown"
+ 2024-07-25 09:18:05.737 | INF | "Select InActive location dropdown"
+ 2024-07-25 09:18:12.936 | INF | "Search for Active ICEFT-Acc"
+ 2024-07-25 09:18:13.123 | INF | "Verify only InActive ICEFT-Acc are displayed"
+ 2024-07-25 09:21:40.566 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 09:21:40.594 | INF | ==================================================================================
+ 2024-07-25 09:21:40.607 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 09:21:40.631 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 09:21:56.547 | INF | "user Login with ICE application"
+ 2024-07-25 09:21:58.694 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 09:22:03.536 | INF | "Select zuser from the list"
+ 2024-07-25 09:22:04.526 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 09:22:04.841 | INF | "Scroll down to specific module"
+ 2024-07-25 09:22:12.684 | INF | "Enable or disable the required options"
+ 2024-07-25 09:22:14.546 | INF | "Click on Save Changes button"
+ 2024-07-25 09:22:14.839 | ERR | Test step failed | Assert.IsTrue failed.    at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowAssertFailed(String assertionName, String message) in /_/src/TestFramework/TestFramework/Assertions/Assert.cs:line 60
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition, String message, Object[] parameters) in /_/src/TestFramework/TestFramework/Assertions/Assert.IsTrue.cs:line 97
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition) in /_/src/TestFramework/TestFramework/Assertions/Assert.IsTrue.cs:line 26
+   at ICE_Desktop.Steps.EditUserStepDefinitions.ThenUserWillAbleToTheUserHasBeenSuccessfullyUpdated(String message) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\EditUserStepDefinitions.cs:line 62
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-25 09:24:21.930 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 09:24:21.957 | INF | ==================================================================================
+ 2024-07-25 09:24:21.962 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 09:24:21.980 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 09:24:39.282 | INF | "user Login with ICE application"
+ 2024-07-25 09:24:41.092 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 09:24:45.846 | INF | "Select zuser from the list"
+ 2024-07-25 09:24:46.453 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 09:24:46.748 | INF | "Scroll down to specific module"
+ 2024-07-25 09:24:54.412 | INF | "Enable or disable the required options"
+ 2024-07-25 09:24:56.308 | INF | "Click on Save Changes button"
+ 2024-07-25 09:24:56.545 | ERR | Test step failed | Assert.IsTrue failed.    at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowAssertFailed(String assertionName, String message) in /_/src/TestFramework/TestFramework/Assertions/Assert.cs:line 60
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition, String message, Object[] parameters) in /_/src/TestFramework/TestFramework/Assertions/Assert.IsTrue.cs:line 97
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition) in /_/src/TestFramework/TestFramework/Assertions/Assert.IsTrue.cs:line 26
+   at ICE_Desktop.Steps.EditUserStepDefinitions.ThenUserWillAbleToTheUserHasBeenSuccessfullyUpdated(String message) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\EditUserStepDefinitions.cs:line 62
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-25 09:26:16.076 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 09:26:16.113 | INF | ==================================================================================
+ 2024-07-25 09:26:16.123 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 09:26:16.160 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 09:26:30.924 | INF | "user Login with ICE application"
+ 2024-07-25 09:26:32.986 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 09:26:37.285 | INF | "Select zuser from the list"
+ 2024-07-25 09:26:38.074 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 09:26:38.370 | INF | "Scroll down to specific module"
+ 2024-07-25 09:26:46.316 | INF | "Enable or disable the required options"
+ 2024-07-25 09:26:48.251 | INF | "Click on Save Changes button"
+ 2024-07-25 09:26:48.424 | INF | "User will able to see The user has been successfully updated."
+ 2024-07-25 09:28:48.580 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 09:28:48.627 | INF | ==================================================================================
+ 2024-07-25 09:28:48.636 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 09:28:48.665 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 09:29:04.128 | INF | "user Login with ICE application"
+ 2024-07-25 09:29:05.724 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 09:29:09.253 | INF | "Select zuser from the list"
+ 2024-07-25 09:29:09.984 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 09:29:10.168 | INF | "Scroll down to specific module"
+ 2024-07-25 09:29:17.551 | INF | "Enable or disable the required options"
+ 2024-07-25 09:29:19.441 | INF | "Click on Save Changes button"
+ 2024-07-25 09:29:19.565 | INF | "User will able to see see The user has ..."
+ 2024-07-25 09:30:08.565 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 09:30:08.588 | INF | ==================================================================================
+ 2024-07-25 09:30:08.595 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 09:30:08.615 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 09:30:31.760 | INF | "user Login with ICE application"
+ 2024-07-25 09:30:33.620 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 09:30:37.950 | INF | "Select zuser from the list"
+ 2024-07-25 09:30:38.885 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 09:30:39.161 | INF | "Scroll down to specific module"
+ 2024-07-25 09:30:46.809 | INF | "Enable or disable the required options"
+ 2024-07-25 09:30:48.768 | INF | "Click on Save Changes button"
+ 2024-07-25 09:30:48.983 | ERR | Test step failed | Assert.IsTrue failed.    at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowAssertFailed(String assertionName, String message) in /_/src/TestFramework/TestFramework/Assertions/Assert.cs:line 60
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition, String message, Object[] parameters) in /_/src/TestFramework/TestFramework/Assertions/Assert.IsTrue.cs:line 97
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition) in /_/src/TestFramework/TestFramework/Assertions/Assert.IsTrue.cs:line 26
+   at ICE_Desktop.Steps.EditUserStepDefinitions.ThenUserWillAbleToTheUserHasBeenSuccessfullyUpdated(String message) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\EditUserStepDefinitions.cs:line 62
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-25 12:00:58.853 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 12:00:58.897 | INF | ==================================================================================
+ 2024-07-25 12:00:58.903 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 12:00:58.943 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 12:01:16.437 | INF | "user Login with ICE application"
+ 2024-07-25 12:01:18.697 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 12:01:23.242 | INF | "Select zuser from the list"
+ 2024-07-25 12:01:24.129 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 12:01:24.390 | INF | "Scroll down to specific module"
+ 2024-07-25 12:01:31.979 | INF | "Enable or disable the required options"
+ 2024-07-25 12:01:34.039 | INF | "Click on Save Changes button"
+ 2024-07-25 12:01:36.399 | ERR | Test step failed | Assert.IsTrue failed.    at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowAssertFailed(String assertionName, String message) in /_/src/TestFramework/TestFramework/Assertions/Assert.cs:line 60
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition, String message, Object[] parameters) in /_/src/TestFramework/TestFramework/Assertions/Assert.IsTrue.cs:line 97
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition) in /_/src/TestFramework/TestFramework/Assertions/Assert.IsTrue.cs:line 26
+   at ICE_Desktop.Steps.EditUserStepDefinitions.ThenUserWillAbleToTheUserHasBeenSuccessfullyUpdated(String message) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\EditUserStepDefinitions.cs:line 62
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-25 12:01:36.625 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-07-25 12:01:36.628 | INF | Selecting scenario "Login with invalid credentials" to run
+ 2024-07-25 12:01:44.338 | INF | "Login with credentials ice\sunquest and icedmin"
+ 2024-07-25 12:01:44.727 | INF | "Verify invalid credential message is displaying"
+ 2024-07-25 12:01:44.731 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-07-25 12:01:52.387 | INF | "Login with credentials ice\sunquest and ice4dmin"
+ 2024-07-25 12:27:37.048 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 12:27:37.071 | INF | ==================================================================================
+ 2024-07-25 12:27:37.076 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 12:27:37.093 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 12:27:52.023 | INF | "user Login with ICE application"
+ 2024-07-25 12:27:53.450 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 12:27:57.184 | INF | "Select zuser from the list"
+ 2024-07-25 12:27:58.023 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 12:27:58.303 | INF | "Scroll down to specific module"
+ 2024-07-25 12:28:05.974 | INF | "Enable or disable the required options"
+ 2024-07-25 12:28:07.892 | INF | "Click on Save Changes button"
+ 2024-07-25 12:28:10.122 | ERR | Test step failed | Assert.AreEqual failed. Expected:<see The user has been successfully updated.>. Actual:<The user has been successfully updated.>. this message is not crt   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowAssertFailed(String assertionName, String message) in /_/src/TestFramework/TestFramework/Assertions/Assert.cs:line 60
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual, IEqualityComparer`1 comparer, String message, Object[] parameters) in /_/src/TestFramework/TestFramework/Assertions/Assert.AreEqual.cs:line 201
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual, String message) in /_/src/TestFramework/TestFramework/Assertions/Assert.AreEqual.cs:line 84
+   at ICE_Desktop.Steps.EditUserStepDefinitions.ThenUserWillAbleToTheUserHasBeenSuccessfullyUpdated(String expmessage) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\EditUserStepDefinitions.cs:line 63
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-25 12:31:24.331 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 12:31:24.361 | INF | ==================================================================================
+ 2024-07-25 12:31:24.370 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 12:31:24.392 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 12:31:39.175 | INF | "user Login with ICE application"
+ 2024-07-25 12:31:41.140 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 12:31:45.143 | INF | "Select zuser from the list"
+ 2024-07-25 12:31:45.811 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 12:31:46.031 | INF | "Scroll down to specific module"
+ 2024-07-25 12:31:53.485 | INF | "Enable or disable the required options"
+ 2024-07-25 12:31:55.400 | INF | "Click on Save Changes button"
+ 2024-07-25 12:31:57.685 | ERR | Test step failed | Assert.AreEqual failed. Expected:<see The user has been successfully updated.>. Actual:<The user has been successfully updated.>. this message is not crt   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowAssertFailed(String assertionName, String message) in /_/src/TestFramework/TestFramework/Assertions/Assert.cs:line 60
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual, IEqualityComparer`1 comparer, String message, Object[] parameters) in /_/src/TestFramework/TestFramework/Assertions/Assert.AreEqual.cs:line 201
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual, String message) in /_/src/TestFramework/TestFramework/Assertions/Assert.AreEqual.cs:line 84
+   at ICE_Desktop.Steps.EditUserStepDefinitions.ThenUserWillAbleToTheUserHasBeenSuccessfullyUpdated(String expmessage) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\EditUserStepDefinitions.cs:line 63
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-25 12:32:39.157 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 12:32:39.190 | INF | ==================================================================================
+ 2024-07-25 12:32:39.195 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 12:32:39.212 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 12:32:53.545 | INF | "user Login with ICE application"
+ 2024-07-25 12:32:55.531 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 12:32:59.510 | INF | "Select zuser from the list"
+ 2024-07-25 12:33:00.353 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 12:33:00.555 | INF | "Scroll down to specific module"
+ 2024-07-25 12:33:07.994 | INF | "Enable or disable the required options"
+ 2024-07-25 12:33:09.755 | INF | "Click on Save Changes button"
+ 2024-07-25 12:33:11.980 | ERR | Test step failed | Assert.AreEqual failed. Expected:<see successfully updated.>. Actual:<The user has been successfully updated.>. this message is not crt   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowAssertFailed(String assertionName, String message) in /_/src/TestFramework/TestFramework/Assertions/Assert.cs:line 60
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual, IEqualityComparer`1 comparer, String message, Object[] parameters) in /_/src/TestFramework/TestFramework/Assertions/Assert.AreEqual.cs:line 201
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual, String message) in /_/src/TestFramework/TestFramework/Assertions/Assert.AreEqual.cs:line 84
+   at ICE_Desktop.Steps.EditUserStepDefinitions.ThenUserWillAbleToTheUserHasBeenSuccessfullyUpdated(String expmessage) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\EditUserStepDefinitions.cs:line 63
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-25 12:35:32.783 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 12:35:32.807 | INF | ==================================================================================
+ 2024-07-25 12:35:32.812 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 12:35:32.830 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 12:35:46.822 | INF | "user Login with ICE application"
+ 2024-07-25 12:35:48.153 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 12:35:52.467 | INF | "Select zuser from the list"
+ 2024-07-25 12:35:53.376 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 12:35:53.659 | INF | "Scroll down to specific module"
+ 2024-07-25 12:36:00.870 | INF | "Enable or disable the required options"
+ 2024-07-25 12:36:03.097 | INF | "Click on Save Changes button"
+ 2024-07-25 12:36:05.365 | ERR | Test step failed | Assert.AreEqual failed. Expected:< The user has been successfully updated.>. Actual:<The user has been successfully updated.>. this message is not crt   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowAssertFailed(String assertionName, String message) in /_/src/TestFramework/TestFramework/Assertions/Assert.cs:line 60
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual, IEqualityComparer`1 comparer, String message, Object[] parameters) in /_/src/TestFramework/TestFramework/Assertions/Assert.AreEqual.cs:line 201
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual, String message) in /_/src/TestFramework/TestFramework/Assertions/Assert.AreEqual.cs:line 84
+   at ICE_Desktop.Steps.EditUserStepDefinitions.ThenUserWillAbleToGetTheUserHasBeenSuccessfullyUpdated(String expmessage) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\EditUserStepDefinitions.cs:line 63
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-25 12:37:37.409 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 12:37:37.435 | INF | ==================================================================================
+ 2024-07-25 12:37:37.440 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 12:37:37.458 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 12:37:52.388 | INF | "user Login with ICE application"
+ 2024-07-25 12:37:54.232 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 12:37:58.145 | INF | "Select zuser from the list"
+ 2024-07-25 12:37:58.749 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 12:37:58.952 | INF | "Scroll down to specific module"
+ 2024-07-25 12:38:06.074 | INF | "Enable or disable the required options"
+ 2024-07-25 12:38:07.961 | INF | "Click on Save Changes button"
+ 2024-07-25 12:38:10.174 | INF | "User will able to getThe user has been successfully updated."
+ 2024-07-25 12:46:10.916 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 12:46:10.945 | INF | ==================================================================================
+ 2024-07-25 12:46:10.950 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 12:46:10.967 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 12:46:25.969 | INF | "user Login with ICE application"
+ 2024-07-25 12:46:27.938 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 12:46:32.186 | INF | "Select zuser from the list"
+ 2024-07-25 12:46:32.962 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 12:46:33.247 | INF | "Scroll down to specific module"
+ 2024-07-25 12:46:33.415 | INF | "Enable or disable the required options"
+ 2024-07-25 12:46:35.235 | INF | "Click on Save Changes button"
+ 2024-07-25 12:46:37.379 | INF | "User will able to getThe user has been successfully updated."
+ 2024-07-25 12:47:07.774 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 12:47:07.811 | INF | ==================================================================================
+ 2024-07-25 12:47:07.817 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 12:47:07.839 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 12:47:22.176 | INF | "user Login with ICE application"
+ 2024-07-25 12:47:24.036 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 12:47:28.015 | INF | "Select zuser from the list"
+ 2024-07-25 12:47:28.683 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 12:47:28.898 | INF | "Scroll down to specific module"
+ 2024-07-25 12:47:29.599 | INF | "Enable or disable the required options"
+ 2024-07-25 12:47:31.577 | INF | "Click on Save Changes button"
+ 2024-07-25 12:47:33.796 | INF | "User will able to getThe user has been successfully updated."
+ 2024-07-25 12:47:56.113 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 12:47:56.136 | INF | ==================================================================================
+ 2024-07-25 12:47:56.141 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 12:47:56.159 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 12:48:11.213 | INF | "user Login with ICE application"
+ 2024-07-25 12:48:13.170 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 12:48:16.681 | INF | "Select zuser from the list"
+ 2024-07-25 12:48:17.271 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 12:48:17.505 | INF | "Scroll down to specific module"
+ 2024-07-25 12:48:17.631 | INF | "Enable or disable the required options"
+ 2024-07-25 12:48:19.162 | INF | "Click on Save Changes button"
+ 2024-07-25 12:48:21.304 | INF | "User will able to getThe user has been successfully updated."
+ 2024-07-25 12:51:19.874 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 12:51:19.902 | INF | ==================================================================================
+ 2024-07-25 12:51:19.908 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 12:51:19.930 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 12:51:34.976 | INF | "user Login with ICE application"
+ 2024-07-25 12:51:36.675 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 12:51:41.173 | INF | "Select zuser from the list"
+ 2024-07-25 12:51:41.950 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 12:51:42.231 | INF | "Scroll down to specific module"
+ 2024-07-25 12:51:43.038 | INF | "Enable or disable the required options"
+ 2024-07-25 12:51:44.932 | INF | "Click on Save Changes button"
+ 2024-07-25 12:51:47.093 | INF | "User will able to getThe user has been successfully updated."
+ 2024-07-25 12:52:00.981 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 12:52:01.004 | INF | ==================================================================================
+ 2024-07-25 12:52:01.008 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 12:52:01.032 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 12:52:14.918 | INF | "user Login with ICE application"
+ 2024-07-25 12:52:16.119 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 12:52:19.852 | INF | "Select zuser from the list"
+ 2024-07-25 12:52:20.505 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 12:52:20.736 | INF | "Scroll down to specific module"
+ 2024-07-25 12:52:21.580 | INF | "Enable or disable the required options"
+ 2024-07-25 12:52:23.547 | INF | "Click on Save Changes button"
+ 2024-07-25 12:52:25.718 | INF | "User will able to getThe user has been successfully updated."
+ 2024-07-25 15:35:37.460 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 15:35:37.507 | INF | ==================================================================================
+ 2024-07-25 15:35:37.521 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 15:35:37.555 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 15:35:54.438 | INF | "user Login with ICE application"
+ 2024-07-25 15:35:56.221 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 15:36:00.592 | INF | "Select zuser from the list"
+ 2024-07-25 15:36:01.201 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 15:36:01.497 | INF | "Scroll down to specific module"
+ 2024-07-25 15:36:31.977 | ERR | Test step failed | Unable to find element with xpath == //*[@id='EDMAC']//child::span[@style='COLOR: green']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at ICE_Desktop.Pages.EditUserpage.options() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\EditUserpage.cs:line 78
+   at ICE_Desktop.Steps.EditUserStepDefinitions.WhenEnableOrDisableTheRequiredOptions() in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\EditUserStepDefinitions.cs:line 50
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-25 15:41:17.305 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 15:41:17.350 | INF | ==================================================================================
+ 2024-07-25 15:41:17.356 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 15:41:17.377 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 15:41:33.931 | INF | "user Login with ICE application"
+ 2024-07-25 15:41:35.555 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 15:41:39.741 | INF | "Select zuser from the list"
+ 2024-07-25 15:41:40.569 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 15:41:40.789 | INF | "Scroll down to specific module"
+ 2024-07-25 15:41:41.838 | INF | "Enable or disable the required options"
+ 2024-07-25 15:41:43.766 | INF | "Click on Save Changes button"
+ 2024-07-25 15:41:45.980 | INF | "User will able to getThe user has been successfully updated."
+ 2024-07-25 15:42:31.533 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 15:42:31.570 | INF | ==================================================================================
+ 2024-07-25 15:42:31.578 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 15:42:31.608 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 15:42:45.623 | INF | "user Login with ICE application"
+ 2024-07-25 15:42:47.559 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 15:42:51.667 | INF | "Select zuser from the list"
+ 2024-07-25 15:42:52.332 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 15:42:52.596 | INF | "Scroll down to specific module"
+ 2024-07-25 15:42:53.653 | INF | "Enable or disable the required options"
+ 2024-07-25 15:42:55.491 | INF | "Click on Save Changes button"
+ 2024-07-25 15:42:57.685 | INF | "User will able to getThe user has been successfully updated."
+ 2024-07-25 15:43:08.843 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-25 15:43:08.875 | INF | ==================================================================================
+ 2024-07-25 15:43:08.879 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-25 15:43:08.898 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-25 15:43:23.504 | INF | "user Login with ICE application"
+ 2024-07-25 15:43:25.174 | INF | "Navigate to Add or Edit User"
+ 2024-07-25 15:43:29.538 | INF | "Select zuser from the list"
+ 2024-07-25 15:43:30.264 | INF | "Click on add button near Toolbar Options"
+ 2024-07-25 15:43:30.563 | INF | "Scroll down to specific module"
+ 2024-07-25 15:43:30.904 | INF | "Enable or disable the required options"
+ 2024-07-25 15:43:32.759 | INF | "Click on Save Changes button"
+ 2024-07-25 15:43:35.012 | INF | "User will able to getThe user has been successfully updated."
+ 

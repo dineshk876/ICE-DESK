@@ -120,7 +120,7 @@ namespace BDD_AutomationTests.Behavior
 
         public static void ScrollDown(IWebElement element)
         {
-            jsExecutor = (IJavaScriptExecutor)driver;
+            IJavaScriptExecutor jsExecutor = (IJavaScriptExecutor)driver;
             jsExecutor.ExecuteScript("arguments[0].scrollIntoView(true);", element);
         }
 

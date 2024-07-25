@@ -1,0 +1,91 @@
+2024-07-24 16:33:28.046 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-24 16:33:28.086 | INF | ==================================================================================
+ 2024-07-24 16:33:28.094 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-24 16:33:28.169 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-24 16:33:46.288 | INF | "user Login with ICE application"
+ 2024-07-24 16:33:48.106 | INF | "Navigate to Add or Edit User"
+ 2024-07-24 16:34:19.445 | ERR | Test step failed | Unable to find element with xpath == //td[normalize-space()='mobile']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at ICE_Desktop.Pages.EditUserpage.SelectUser(String user) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\EditUserpage.cs:line 42
+   at ICE_Desktop.Steps.EditUserStepDefinitions.WhenSelectZtestFromTheList(String user) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\EditUserStepDefinitions.cs.cs:line 31
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-24 16:35:47.636 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-24 16:35:47.661 | INF | ==================================================================================
+ 2024-07-24 16:35:47.666 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-24 16:35:47.689 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-24 16:36:03.265 | INF | "user Login with ICE application"
+ 2024-07-24 16:36:05.221 | INF | "Navigate to Add or Edit User"
+ 2024-07-24 16:36:37.387 | ERR | Test step failed | Unable to find element with xpath == //td[normalize-space()='mobile']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at ICE_Desktop.Pages.EditUserpage.SelectUser(String user) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\EditUserpage.cs:line 44
+   at ICE_Desktop.Steps.EditUserStepDefinitions.WhenSelectZtestFromTheList(String user) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\EditUserStepDefinitions.cs.cs:line 31
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-24 16:37:18.983 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-24 16:37:19.016 | INF | ==================================================================================
+ 2024-07-24 16:37:19.024 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-24 16:37:19.050 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-24 16:37:33.326 | INF | "user Login with ICE application"
+ 2024-07-24 16:37:35.014 | INF | "Navigate to Add or Edit User"
+ 2024-07-24 16:38:07.471 | ERR | Test step failed | Timed out after 10 seconds   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at BDD_AutomationTests.Behavior.Baseclass.WaitForElementToBeVisible(IWebDriver driver, By locator, Int32 timeoutInSeconds) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Behavior\Baseclass.cs:line 153
+   at ICE_Desktop.Pages.EditUserpage.SelectUser(String user) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\EditUserpage.cs:line 44
+   at ICE_Desktop.Steps.EditUserStepDefinitions.WhenSelectZtestFromTheList(String user) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\EditUserStepDefinitions.cs.cs:line 31
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-24 16:39:43.479 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-24 16:39:43.503 | INF | ==================================================================================
+ 2024-07-24 16:39:43.508 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-24 16:39:43.526 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-24 16:39:57.981 | INF | "user Login with ICE application"
+ 2024-07-24 16:39:59.811 | INF | "Navigate to Add or Edit User"
+ 2024-07-24 16:40:34.084 | ERR | Test step failed | Unable to find element with xpath == //td[normalize-space()='mobile']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at ICE_Desktop.Pages.EditUserpage.SelectUser(String user) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Pages\EditUserpage.cs:line 46
+   at ICE_Desktop.Steps.EditUserStepDefinitions.WhenSelectZtestFromTheList(String user) in C:\DK - DRIVE\ICE DESKTOP\ICE-DESK\ICE Desktop\Steps\EditUserStepDefinitions.cs.cs:line 31
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-07-24 16:43:44.068 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-24 16:43:44.092 | INF | ==================================================================================
+ 2024-07-24 16:43:44.099 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-24 16:43:44.133 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-24 16:43:59.992 | INF | "user Login with ICE application"
+ 2024-07-24 16:44:01.804 | INF | "Navigate to Add or Edit User"
+ 2024-07-24 16:44:06.383 | INF | "Select zuser from the list"
+ 2024-07-24 16:44:06.385 | INF | "Click on add button near Toolbar Options"
+ 2024-07-24 16:44:06.387 | INF | "Scroll down to specific module"
+ 2024-07-24 16:44:06.389 | INF | "Enable or disable the required options"
+ 2024-07-24 16:44:06.391 | INF | "Click on Save Changes button"
+ 2024-07-24 16:44:06.393 | INF | "User will able to see The user has been successfully updated."
+ 2024-07-24 16:50:24.594 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-07-24 16:50:24.624 | INF | ==================================================================================
+ 2024-07-24 16:50:24.636 | INF | Selecting feature file "Check that an administrator can edit a user (Consultant)." to run
+ 2024-07-24 16:50:24.664 | INF | Selecting scenario "Edit Toolbar Options for a user" to run
+ 2024-07-24 16:50:40.510 | INF | "user Login with ICE application"
+ 2024-07-24 16:50:42.544 | INF | "Navigate to Add or Edit User"
+ 2024-07-24 16:50:46.364 | INF | "Select zuser from the list"
+ 2024-07-24 16:50:47.356 | INF | "Click on add button near Toolbar Options"
+ 2024-07-24 16:50:47.358 | INF | "Scroll down to specific module"
+ 2024-07-24 16:50:47.359 | INF | "Enable or disable the required options"
+ 2024-07-24 16:50:47.360 | INF | "Click on Save Changes button"
+ 2024-07-24 16:50:47.362 | INF | "User will able to see The user has been successfully updated."
+ 
